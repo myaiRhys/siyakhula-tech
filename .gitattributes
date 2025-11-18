@@ -1,0 +1,6 @@
+# Exclude build files from GitHub language statistics
+dist/** linguist-vendored
+assets/** linguist-vendored
+*.css linguist-vendored=false
+*.jsx linguist-language=JavaScript
+*.js linguist-language=JavaScript
