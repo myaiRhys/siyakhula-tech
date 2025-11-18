@@ -47,6 +47,24 @@
       "subtitle": "Izixazululo zobuchwepheshe ezisebenzayo ezikhulisa ibhizinisi lakho",
       "seeAll": "Bona Zonke Izinsizakalo"
     },
+    "servicesPreview": {
+      "website": {
+        "description": "Amawebhusayithi esimanjemanje, aphendukayo asebenza kunoma iyiphi idivayisi. Izinketho zezilimi eziningi ziyatholakala.",
+        "features": ["Ukwakheka okugxile kumakhalekhukhwini", "I-SEO ethuthukisiwe", "Ukulayisha okusheshayo", "Kulula ukuvuselela"]
+      },
+      "aiAutomation": {
+        "description": "Isevisi yamakhasimende engu-24/7 ngaphandle kokuqasha abasebenzi abangeziwe. Yenza ngokuzenzakalela imisebenzi ephindaphindayo.",
+        "features": ["Ama-WhatsApp bot", "Ukwesekwa kwamakhasimende", "Ukukhiqiza abaholi", "Ukuzenzakalelisa kwemisebenzi"]
+      },
+      "customApps": {
+        "description": "Izinhlelo zokusebenza ezilula ezixazulula izinkinga ezithile zebhizinisi lakho.",
+        "features": ["Amasistimu okubhuka", "Ukulandelela impahla", "Amaphothali amakhasimende", "Amathuluzi omsebenzi"]
+      },
+      "googleBusiness": {
+        "description": "Tholakale ku-Google Maps naseKusesheni. Kubalulekile kumabhizinisi endawo.",
+        "features": ["Ukuthuthukisa iphrofayela", "Ukuphatha ukubuyekezwa", "I-SEO yendawo", "Ukusetha ama-analytics"]
+      }
+    },
     "stats": {
       "title": "Kungani Amabhizinisi Esithemba",
       "subtitle": "Imiphumela yangempela, ngokushesha",
@@ -70,35 +88,102 @@
     "website": {
       "title": "Ukwakha Nokuthuthukisa Iwebhusayithi",
       "tagline": "Isitolo sakho sedijithali esisebenza imini nobusuku",
-      "description": "Iwebhusayithi yobuchwephesha ayiseyona into yokuzikhukhumeza—ibalulekile. Sakha amawebhusayithi asheshayo, asesimanjemanje, asebenza kumaselula aletha amakhasimende ngempela."
+      "description": "Iwebhusayithi yobuchwephesha ayiseyona into yokuzikhukhumeza—ibalulekile. Sakha amawebhusayithi asheshayo, asesimanjemanje, asebenza kumaselula aletha amakhasimende ngempela.",
+      "features": [
+        "Ukwakhiwa okuphendukayo (kubukeka kahle kumaselula, amathebhulethi, amakhompyutha)",
+        "I-SEO ethuthukisiwe ukuze ibeke esigcemeni ku-Google",
+        "Izikhathi zokulayisha ezisheshayo",
+        "Ukuphathwa kokuqukethwe okulula",
+        "Izinketho zezilimi eziningi (isiNgisi, isiZulu, isiXhosa, isi-Afrikaans, njll.)",
+        "Amafomu okuxhumana nama-CTA",
+        "Ukuhlanganiswa kwezinkundla zokuxhumana"
+      ],
+      "pricing": "From R2,500",
+      "deliveryTime": "3-7 izinsuku"
     },
     "aiAutomation": {
       "title": "Ukuzenzakalela Nge-AI Nama-chatbot",
       "tagline": "Sebenza ngokuhlakanipha, hhayi kanzima",
-      "description": "Yeka ukuchitha amahora emisebenzini ephindaphindiwe. Izixazululo zethu ze-AI ziphatha imibuzo yamakhasimende, zihlole abaholela, futhi zenze umsebenzi uzenzakalele—ukuze ukwazi ukugxila ekukhuliseni ibhizinisi."
+      "description": "Yeka ukuchitha amahora emisebenzini ephindaphindiwe. Izixazululo zethu ze-AI ziphatha imibuzo yamakhasimende, zihlole abaholela, futhi zenze umsebenzi uzenzakalele—ukuze ukwazi ukugxila ekukhuliseni ibhizinisi.",
+      "features": [
+        "Ama-chatbot e-WhatsApp esevisi yamakhasimende",
+        "Ukuhlolwa kwabaholela okuzenzakalelayo",
+        "Ukuzenzakalelisa i-FAQ",
+        "Ama-bot okubhukha izikhathi",
+        "Ukuzenzakalelisa i-imeyili",
+        "Ukwesekwa kwamakhasimende 24/7 ngaphandle kwabasebenzi abangeziwe",
+        "Ukuhlanganiswa nezinhlelo zakho ezikhona"
+      ],
+      "pricing": "From R3,000",
+      "deliveryTime": "5-10 izinsuku"
     },
     "customApps": {
       "title": "Izinhlelo Zokusebenza Ezakhiwe Ngokwezifiso Namathuluzi",
       "tagline": "Xazulula izinkinga zakho zebhizinisi ezihlukile",
-      "description": "Udinga okuthile okuqondile? Sakha izinhlelo zokusebenza ezilula, ezisebenza kahle ezilungiselelwe indlela yakho yokusebenza—izinhlelo zokubhukha, izilondolozi zempahla, amaphodluli wamakhasimende, nokunye."
+      "description": "Udinga okuthile okuqondile? Sakha izinhlelo zokusebenza ezilula, ezisebenza kahle ezilungiselelwe indlela yakho yokusebenza—izinhlelo zokubhukha, izilondolozi zempahla, amaphodluli wamakhasimende, nokunye.",
+      "features": [
+        "Amasistimu okubhukha nokuhlela ku-inthanethi",
+        "Amathuluziokuphatha impahla",
+        "Amaphothali wamakhasimende/amaklayenti",
+        "Abakhiqizi bokulinganisa/ama-invoyisi",
+        "Ukuzenzakalelisa indlela yokusebenza yangaphakathi",
+        "Izinhlelo zokusebenza zewebhu ezisebenza kumaselula",
+        "Ukuhlanganiswa namathuluzi akhona"
+      ],
+      "pricing": "From R5,000",
+      "deliveryTime": "7-14 izinsuku"
     },
     "googleBusiness": {
       "title": "Ukumisa Iphrofayela Yebhizinisi Le-Google",
       "tagline": "Tholakala amakhasimende asendaweni",
-      "description": "Vela lapho abantu bendawo yakho befuna lokho okunike khona. Senza ngcono iphrofayela yakho yebhizinisi le-Google ukuze uvele ku-Maps nase-Search."
+      "description": "Vela lapho abantu bendawo yakho befuna lokho okunike khona. Senza ngcono iphrofayela yakho yebhizinisi le-Google ukuze uvele ku-Maps nase-Search.",
+      "features": [
+        "Ukumisa nokuthuthukisa iphrofayela ephelele",
+        "Uhlu lwe-Google Maps",
+        "Isu lokuphatha ukubuyekezwa",
+        "Ukuthuthukiswa kwe-SEO yendawo",
+        "Ukuthuthukiswa kwezithombe nezincazelo",
+        "Ukumisa amahora ebhizinisi nokuxhumana",
+        "Ukuhlela ukuphosi (izibuyekezo, okunikezwayo, imicimbi)"
+      ],
+      "pricing": "From R1,500",
+      "deliveryTime": "2-3 izinsuku"
     },
     "digitalMarketing": {
       "title": "Amaphakethe Okuqala Okumaketha Ngedijithali",
       "tagline": "Thola amakhasimende amaningi ku-inthanethi",
-      "description": "Ukumaketha okulula, okusebenza kahle okulungele isabelomali sakho. Ukumisa izinkundla zokuxhumana, izisekelo ze-Google Ads, imikhankaso ye-imeyili—sikuqalisa ngendlela efanele."
+      "description": "Ukumaketha okulula, okusebenza kahle okulungele isabelomali sakho. Ukumisa izinkundla zokuxhumana, izisekelo ze-Google Ads, imikhankaso ye-imeyili—sikuqalisa ngendlela efanele.",
+      "features": [
+        "Ukumisa iphrofayela yezinkundla zokuxhumana nokubeka uphawu",
+        "Ukuhlela ikhalenda yokuqukethwe",
+        "Ukumisa umkhankaso we-Google Ads",
+        "Ukumisa ukumaketha nge-imeyili (izincwadi zezindaba, ukukhangisa)",
+        "Ukuhlaziya okuyisisekelo nokulandelela",
+        "Ukudala ikhasi lokufika",
+        "Ukubhala izikhangiso"
+      ],
+      "pricing": "From R2,000",
+      "deliveryTime": "5-7 izinsuku"
     },
     "consulting": {
       "title": "Ukwelulekwa Kokuguqulwa Kwedijithali",
       "tagline": "Zulazula umhlaba wedijithali ngokuzethemba",
-      "description": "Awazi lapho uzoqala khona? Sizohlola ibhizinisi lakho, sibone amathuba, futhi sidale umhlahlandlela ongokoqobo wokukhula kwedijithali—kungekho igama lobuchwepheshe, iseluleko esicacile kuphela."
+      "description": "Awazi lapho uzoqala khona? Sizohlola ibhizinisi lakho, sibone amathuba, futhi sidale umhlahlandlela ongokoqobo wokukhula kwedijithali—kungekho igama lobuchwepheshe, iseluleko esicacile kuphela.",
+      "features": [
+        "Ukuhlolwa kwezidingo zebhizinisi",
+        "Izincomo zobuchwepheshe",
+        "Amathuba okuzenzakalelisa inqubo",
+        "Umhlahlandlela wesu ledijithali",
+        "Ukwesekwa kokuqeqeshwa nokufakwa",
+        "Ukwesekwa nokuholwa okuqhubekayo",
+        "Izixazululo ezilungele isabelomali"
+      ],
+      "pricing": "From R1,000/isikhathi",
+      "deliveryTime": "Okuguquguqukayo"
     },
     "pricing": {
       "from": "Kusukela ku",
+      "startingPrice": "Intengo yokuqala",
       "delivery": "Ukunikezwa",
       "support": "Ukwesekwa",
       "included": "Kufakiwe",

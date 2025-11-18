@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import {
   FaWhatsapp,
   FaEnvelope,
@@ -16,6 +17,7 @@ import SectionHeader from '../components/common/SectionHeader';
  * Contact form, WhatsApp integration, and contact information
  */
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -69,24 +71,24 @@ const Contact = () => {
   const contactMethods = [
     {
       icon: FaWhatsapp,
-      title: "WhatsApp Us",
-      description: "Fastest way to reach us",
+      title: t('contact.methods.whatsapp.title'),
+      description: t('contact.methods.whatsapp.description'),
       detail: "+27 XX XXX XXXX",
       link: "https://wa.me/27XXXXXXXXX",
       color: "from-green-500 to-green-600"
     },
     {
       icon: FaEnvelope,
-      title: "Email",
-      description: "We respond within 24 hours",
+      title: t('contact.methods.email.title'),
+      description: t('contact.methods.email.description'),
       detail: "info@siyakhulatech.co.za",
       link: "mailto:info@siyakhulatech.co.za",
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: FaPhone,
-      title: "Call Us",
-      description: "Mon-Fri, 9am-6pm SAST",
+      title: t('contact.methods.phone.title'),
+      description: t('contact.methods.phone.description'),
       detail: "+27 XX XXX XXXX",
       link: "tel:+27XXXXXXXXX",
       color: "from-purple-500 to-purple-600"
@@ -124,10 +126,10 @@ const Contact = () => {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Let's Build Something Great Together
+              {t('contact.hero.title')}
             </h1>
             <p className="text-xl md:text-2xl text-primary-100">
-              Get a free quote and honest advice. No pressure, no jargon.
+              {t('contact.hero.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -171,9 +173,9 @@ const Contact = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-3xl font-bold mb-6 text-gray-900">Get a Free Quote</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-900">{t('contact.form.title')}</h2>
               <p className="text-gray-600 mb-8">
-                Fill out the form below and we'll get back to you within 24 hours with a clear proposal.
+                {t('contact.form.description')}
               </p>
 
               {submitted ? (
@@ -183,9 +185,9 @@ const Contact = () => {
                   className="bg-green-50 border-2 border-green-500 rounded-xl p-8 text-center"
                 >
                   <FaCheckCircle className="text-6xl text-green-500 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold text-green-700 mb-2">Thank You!</h3>
+                  <h3 className="text-2xl font-bold text-green-700 mb-2">{t('contact.form.thankYou')}</h3>
                   <p className="text-green-600">
-                    We've received your message and will get back to you within 24 hours.
+                    {t('contact.form.successMessage')}
                   </p>
                 </motion.div>
               ) : (
@@ -193,7 +195,7 @@ const Contact = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-gray-700 font-semibold mb-2">
-                        Your Name *
+                        {t('contact.form.name')} *
                       </label>
                       <input
                         type="text"
@@ -208,7 +210,7 @@ const Contact = () => {
 
                     <div>
                       <label className="block text-gray-700 font-semibold mb-2">
-                        Email *
+                        {t('contact.form.email')} *
                       </label>
                       <input
                         type="email"
@@ -225,7 +227,7 @@ const Contact = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-gray-700 font-semibold mb-2">
-                        Phone
+                        {t('contact.form.phone')}
                       </label>
                       <input
                         type="tel"
@@ -239,7 +241,7 @@ const Contact = () => {
 
                     <div>
                       <label className="block text-gray-700 font-semibold mb-2">
-                        Business Name
+                        {t('contact.form.business')}
                       </label>
                       <input
                         type="text"
@@ -254,7 +256,7 @@ const Contact = () => {
 
                   <div>
                     <label className="block text-gray-700 font-semibold mb-2">
-                      Service Interested In *
+                      {t('contact.form.service')} *
                     </label>
                     <select
                       name="service"
@@ -263,7 +265,7 @@ const Contact = () => {
                       required
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-200 outline-none transition"
                     >
-                      <option value="">Select a service</option>
+                      <option value="">{t('contact.form.selectService')}</option>
                       {services.map((service, index) => (
                         <option key={index} value={service}>{service}</option>
                       ))}
@@ -272,7 +274,7 @@ const Contact = () => {
 
                   <div>
                     <label className="block text-gray-700 font-semibold mb-2">
-                      Approximate Budget
+                      {t('contact.form.budget')}
                     </label>
                     <select
                       name="budget"
@@ -280,7 +282,7 @@ const Contact = () => {
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-200 outline-none transition"
                     >
-                      <option value="">Select your budget range</option>
+                      <option value="">{t('contact.form.selectBudget')}</option>
                       <option value="under-5k">Under R5,000</option>
                       <option value="5k-10k">R5,000 - R10,000</option>
                       <option value="10k-20k">R10,000 - R20,000</option>
@@ -291,7 +293,7 @@ const Contact = () => {
 
                   <div>
                     <label className="block text-gray-700 font-semibold mb-2">
-                      Tell Us About Your Project *
+                      {t('contact.form.message')} *
                     </label>
                     <textarea
                       name="message"
@@ -300,7 +302,7 @@ const Contact = () => {
                       required
                       rows="5"
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-200 outline-none transition resize-none"
-                      placeholder="What do you need help with? What are your goals?"
+                      placeholder={t('contact.form.messagePlaceholder')}
                     ></textarea>
                   </div>
 
@@ -308,7 +310,7 @@ const Contact = () => {
                     type="submit"
                     className="btn btn-primary w-full text-lg flex items-center justify-center gap-2"
                   >
-                    <FaPaperPlane /> Send Message
+                    <FaPaperPlane /> {t('contact.form.send')}
                   </button>
                 </form>
               )}
@@ -324,24 +326,24 @@ const Contact = () => {
             >
               {/* Contact Info */}
               <div className="card p-8">
-                <h3 className="text-2xl font-bold mb-6 text-gray-900">Contact Information</h3>
+                <h3 className="text-2xl font-bold mb-6 text-gray-900">{t('contact.info.title')}</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
                     <FaMapMarkerAlt className="text-2xl text-primary-600 mt-1" />
                     <div>
-                      <div className="font-semibold text-gray-900">Location</div>
-                      <div className="text-gray-600">Cape Town, South Africa</div>
-                      <div className="text-sm text-gray-500">Serving all of SA remotely</div>
+                      <div className="font-semibold text-gray-900">{t('contact.info.location')}</div>
+                      <div className="text-gray-600">{t('contact.info.locationDetail')}</div>
+                      <div className="text-sm text-gray-500">{t('contact.info.servingAll')}</div>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
                     <FaClock className="text-2xl text-primary-600 mt-1" />
                     <div>
-                      <div className="font-semibold text-gray-900">Business Hours</div>
-                      <div className="text-gray-600">Monday - Friday: 9am - 6pm</div>
-                      <div className="text-gray-600">Saturday: 10am - 2pm</div>
-                      <div className="text-sm text-gray-500">WhatsApp available 24/7</div>
+                      <div className="font-semibold text-gray-900">{t('contact.info.hours')}</div>
+                      <div className="text-gray-600">{t('contact.info.weekdays')}</div>
+                      <div className="text-gray-600">{t('contact.info.saturday')}</div>
+                      <div className="text-sm text-gray-500">{t('contact.info.whatsapp247')}</div>
                     </div>
                   </div>
                 </div>
@@ -350,9 +352,9 @@ const Contact = () => {
               {/* WhatsApp CTA */}
               <div className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-2xl p-8">
                 <FaWhatsapp className="text-5xl mb-4" />
-                <h3 className="text-2xl font-bold mb-3">Prefer WhatsApp?</h3>
+                <h3 className="text-2xl font-bold mb-3">{t('contact.whatsappCta.title')}</h3>
                 <p className="mb-6 text-green-50">
-                  Get instant responses to your questions. Chat with us now!
+                  {t('contact.whatsappCta.description')}
                 </p>
                 <a
                   href="https://wa.me/27XXXXXXXXX"
@@ -360,13 +362,13 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="btn bg-white text-green-600 hover:bg-green-50 w-full text-center block"
                 >
-                  Start WhatsApp Chat
+                  {t('contact.whatsappCta.button')}
                 </a>
               </div>
 
               {/* FAQs */}
               <div className="card p-8">
-                <h3 className="text-2xl font-bold mb-6 text-gray-900">Quick Answers</h3>
+                <h3 className="text-2xl font-bold mb-6 text-gray-900">{t('contact.faqs.title')}</h3>
                 <div className="space-y-4">
                   {faqs.map((faq, index) => (
                     <div key={index}>

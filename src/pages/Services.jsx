@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import {
   FaGlobe,
   FaRobot,
@@ -21,113 +22,66 @@ import SectionHeader from '../components/common/SectionHeader';
  * Detailed service offerings with features and CTAs
  */
 const Services = () => {
+  const { t } = useTranslation();
   const services = [
     {
       icon: FaGlobe,
-      title: "Website Creation & Upgrades",
-      tagline: "Your digital storefront that works 24/7",
-      description: "A professional website isn't a luxury anymore—it's essential. We build fast, modern, mobile-friendly sites that actually bring in customers.",
-      features: [
-        "Responsive design (looks great on phones, tablets, desktops)",
-        "SEO optimized to rank on Google",
-        "Fast loading times",
-        "Easy content management",
-        "Multilingual options (English, isiZulu, isiXhosa, Afrikaans, etc.)",
-        "Contact forms and CTAs",
-        "Social media integration"
-      ],
-      pricing: "From R2,500",
-      deliveryTime: "3-7 days",
+      title: t('services.website.title'),
+      tagline: t('services.website.tagline'),
+      description: t('services.website.description'),
+      features: t('services.website.features', { returnObjects: true }),
+      pricing: t('services.website.pricing'),
+      deliveryTime: t('services.website.deliveryTime'),
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: FaRobot,
-      title: "AI Automation & Chatbots",
-      tagline: "Work smarter, not harder",
-      description: "Stop spending hours on repetitive tasks. Our AI solutions handle customer queries, qualify leads, and automate workflows—so you can focus on growing your business.",
-      features: [
-        "WhatsApp chatbots for customer service",
-        "Automated lead qualification",
-        "FAQ automation",
-        "Appointment booking bots",
-        "Email automation",
-        "24/7 customer support without extra staff",
-        "Integration with your existing systems"
-      ],
-      pricing: "From R3,000",
-      deliveryTime: "5-10 days",
+      title: t('services.aiAutomation.title'),
+      tagline: t('services.aiAutomation.tagline'),
+      description: t('services.aiAutomation.description'),
+      features: t('services.aiAutomation.features', { returnObjects: true }),
+      pricing: t('services.aiAutomation.pricing'),
+      deliveryTime: t('services.aiAutomation.deliveryTime'),
       color: "from-purple-500 to-purple-600"
     },
     {
       icon: FaMobile,
-      title: "Custom Apps & Tools",
-      tagline: "Solve your unique business problems",
-      description: "Need something specific? We build simple, effective apps tailored to your workflow—booking systems, inventory trackers, customer portals, and more.",
-      features: [
-        "Online booking and scheduling systems",
-        "Inventory management tools",
-        "Customer/client portals",
-        "Quote/invoice generators",
-        "Internal workflow automation",
-        "Mobile-friendly web apps",
-        "Integration with existing tools"
-      ],
-      pricing: "From R5,000",
-      deliveryTime: "7-14 days",
+      title: t('services.customApps.title'),
+      tagline: t('services.customApps.tagline'),
+      description: t('services.customApps.description'),
+      features: t('services.customApps.features', { returnObjects: true }),
+      pricing: t('services.customApps.pricing'),
+      deliveryTime: t('services.customApps.deliveryTime'),
       color: "from-green-500 to-green-600"
     },
     {
       icon: FaStore,
-      title: "Google Business Profile Setup",
-      tagline: "Get found by local customers",
-      description: "Show up when people in your area search for what you offer. We optimize your Google Business Profile so you appear on Maps and Search.",
-      features: [
-        "Complete profile setup and optimization",
-        "Google Maps listing",
-        "Review management strategy",
-        "Local SEO optimization",
-        "Photo and description optimization",
-        "Business hours and contact setup",
-        "Post scheduling (updates, offers, events)"
-      ],
-      pricing: "From R1,500",
-      deliveryTime: "2-3 days",
+      title: t('services.googleBusiness.title'),
+      tagline: t('services.googleBusiness.tagline'),
+      description: t('services.googleBusiness.description'),
+      features: t('services.googleBusiness.features', { returnObjects: true }),
+      pricing: t('services.googleBusiness.pricing'),
+      deliveryTime: t('services.googleBusiness.deliveryTime'),
       color: "from-red-500 to-red-600"
     },
     {
       icon: FaChartLine,
-      title: "Digital Marketing Starter Packages",
-      tagline: "Get more customers online",
-      description: "Simple, effective marketing that fits your budget. Social media setup, Google Ads basics, email campaigns—we get you started the right way.",
-      features: [
-        "Social media profile setup and branding",
-        "Content calendar planning",
-        "Google Ads campaign setup",
-        "Email marketing setup (newsletters, promos)",
-        "Basic analytics and tracking",
-        "Landing page creation",
-        "Ad copywriting"
-      ],
-      pricing: "From R2,000",
-      deliveryTime: "5-7 days",
+      title: t('services.digitalMarketing.title'),
+      tagline: t('services.digitalMarketing.tagline'),
+      description: t('services.digitalMarketing.description'),
+      features: t('services.digitalMarketing.features', { returnObjects: true }),
+      pricing: t('services.digitalMarketing.pricing'),
+      deliveryTime: t('services.digitalMarketing.deliveryTime'),
       color: "from-orange-500 to-orange-600"
     },
     {
       icon: FaHeadset,
-      title: "Digital Transformation Consulting",
-      tagline: "Navigate the digital world with confidence",
-      description: "Not sure where to start? We'll assess your business, identify opportunities, and create a realistic roadmap for digital growth—no jargon, just clear advice.",
-      features: [
-        "Business needs assessment",
-        "Technology recommendations",
-        "Process automation opportunities",
-        "Digital strategy roadmap",
-        "Training and onboarding support",
-        "Ongoing support and guidance",
-        "Budget-friendly solutions"
-      ],
-      pricing: "From R1,000/session",
-      deliveryTime: "Flexible",
+      title: t('services.consulting.title'),
+      tagline: t('services.consulting.tagline'),
+      description: t('services.consulting.description'),
+      features: t('services.consulting.features', { returnObjects: true }),
+      pricing: t('services.consulting.pricing'),
+      deliveryTime: t('services.consulting.deliveryTime'),
       color: "from-teal-500 to-teal-600"
     }
   ];
@@ -144,10 +98,10 @@ const Services = () => {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Services That Grow Your Business
+              {t('services.hero.title')}
             </h1>
             <p className="text-xl md:text-2xl text-primary-100">
-              Fast, affordable, and actually useful. Pick what you need—or bundle for maximum impact.
+              {t('services.hero.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -196,17 +150,17 @@ const Services = () => {
                     <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 sticky top-24">
                       <div className="text-center mb-6">
                         <div className="text-4xl font-bold text-gray-900 mb-2">{service.pricing}</div>
-                        <div className="text-gray-600">Starting price</div>
+                        <div className="text-gray-600">{t('services.pricing.startingPrice')}</div>
                       </div>
 
                       <div className="space-y-4 mb-6">
                         <div className="flex items-center gap-2 text-gray-700">
                           <FaCalendarAlt className="text-primary-500" />
-                          <span><strong>Delivery:</strong> {service.deliveryTime}</span>
+                          <span><strong>{t('services.pricing.delivery')}:</strong> {service.deliveryTime}</span>
                         </div>
                         <div className="flex items-center gap-2 text-gray-700">
                           <FaHeadset className="text-primary-500" />
-                          <span><strong>Support:</strong> Included</span>
+                          <span><strong>{t('services.pricing.support')}:</strong> {t('services.pricing.included')}</span>
                         </div>
                       </div>
 
@@ -214,7 +168,7 @@ const Services = () => {
                         to="/contact"
                         className="btn btn-primary w-full text-center block mb-3"
                       >
-                        Get a Quote
+                        {t('services.pricing.getQuote')}
                       </Link>
                       <a
                         href="https://wa.me/27XXXXXXXXX"
@@ -222,7 +176,7 @@ const Services = () => {
                         rel="noopener noreferrer"
                         className="btn btn-secondary w-full text-center flex items-center justify-center gap-2"
                       >
-                        <FaWhatsapp /> WhatsApp Us
+                        <FaWhatsapp /> {t('services.pricing.whatsappUs')}
                       </a>
                     </div>
                   </div>
@@ -237,8 +191,8 @@ const Services = () => {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <SectionHeader
-            title="Why Work With Us?"
-            subtitle="We're not like those big agencies with 6-month timelines and corporate jargon"
+            title={t('services.whyUs.title')}
+            subtitle={t('services.whyUs.subtitle')}
           />
 
           <div className="grid md:grid-cols-3 gap-8 mt-12">
@@ -251,8 +205,8 @@ const Services = () => {
               <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FaCalendarAlt className="text-3xl text-primary-600" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Fast Delivery</h3>
-              <p className="text-gray-600">Most projects delivered in days, not months. You'll see results quickly.</p>
+              <h3 className="text-xl font-bold mb-2">{t('services.whyUs.fastDelivery.title')}</h3>
+              <p className="text-gray-600">{t('services.whyUs.fastDelivery.description')}</p>
             </motion.div>
 
             <motion.div
@@ -265,8 +219,8 @@ const Services = () => {
               <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FaLanguage className="text-3xl text-primary-600" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Clear Communication</h3>
-              <p className="text-gray-600">No tech jargon. We explain everything in plain language so you understand exactly what you're getting.</p>
+              <h3 className="text-xl font-bold mb-2">{t('services.whyUs.clearComm.title')}</h3>
+              <p className="text-gray-600">{t('services.whyUs.clearComm.description')}</p>
             </motion.div>
 
             <motion.div
@@ -279,8 +233,8 @@ const Services = () => {
               <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FaCheckCircle className="text-3xl text-primary-600" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Results-Focused</h3>
-              <p className="text-gray-600">We build things that actually help your business grow—more customers, less manual work, better visibility.</p>
+              <h3 className="text-xl font-bold mb-2">{t('services.whyUs.results.title')}</h3>
+              <p className="text-gray-600">{t('services.whyUs.results.description')}</p>
             </motion.div>
           </div>
         </div>
@@ -296,13 +250,13 @@ const Services = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Not Sure What You Need?
+              {t('services.ctaTitle')}
             </h2>
             <p className="text-xl mb-8 text-primary-100">
-              Book a free consultation. We'll chat about your business goals and recommend the best solutions for your budget.
+              {t('services.ctaDescription')}
             </p>
             <Link to="/contact" className="btn btn-secondary text-lg px-8 py-4">
-              Get Free Consultation
+              {t('services.ctaButton')}
             </Link>
           </motion.div>
         </div>

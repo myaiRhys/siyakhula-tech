@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import {
   FaRocket,
   FaDollarSign,
@@ -19,31 +20,33 @@ import SectionHeader from '../components/common/SectionHeader';
  * Main landing page with hero, pain points, services, and CTAs
  */
 const Home = () => {
+  const { t } = useTranslation();
+
   // Pain points data
   const painPoints = [
     {
       icon: FaGlobe,
-      title: "No Website or Outdated Site",
-      description: "Your competitors are online. You're not. Or worse—your site looks like it's from 2010.",
-      solution: "Get a modern, mobile-friendly website in days."
+      title: t('home.painPoints.noWebsite.title'),
+      description: t('home.painPoints.noWebsite.description'),
+      solution: t('home.painPoints.noWebsite.solution')
     },
     {
       icon: FaRobot,
-      title: "Missing Out on Automation",
-      description: "Spending hours on repetitive tasks like answering customer questions or scheduling.",
-      solution: "Automate with AI chatbots and smart workflows."
+      title: t('home.painPoints.missingAutomation.title'),
+      description: t('home.painPoints.missingAutomation.description'),
+      solution: t('home.painPoints.missingAutomation.solution')
     },
     {
       icon: FaLanguage,
-      title: "Can't Reach Your Full Market",
-      description: "South Africa is multilingual, but your site only speaks English.",
-      solution: "Connect with customers in isiZulu, isiXhosa, Afrikaans, and more."
+      title: t('home.painPoints.cantReach.title'),
+      description: t('home.painPoints.cantReach.description'),
+      solution: t('home.painPoints.cantReach.solution')
     },
     {
       icon: FaDollarSign,
-      title: "Tech is Too Expensive",
-      description: "You've been quoted R50,000+ for basic web development. That's not realistic for small business.",
-      solution: "Fast, affordable solutions tailored to your budget."
+      title: t('home.painPoints.tooExpensive.title'),
+      description: t('home.painPoints.tooExpensive.description'),
+      solution: t('home.painPoints.tooExpensive.solution')
     }
   ];
 
@@ -51,36 +54,36 @@ const Home = () => {
   const services = [
     {
       icon: FaGlobe,
-      title: "Website Creation & Upgrades",
-      description: "Modern, responsive websites that work on any device. Multilingual options available.",
-      features: ["Mobile-first design", "SEO optimized", "Fast loading", "Easy to update"]
+      title: t('services.website.title'),
+      description: t('home.servicesPreview.website.description'),
+      features: t('home.servicesPreview.website.features', { returnObjects: true })
     },
     {
       icon: FaRobot,
-      title: "AI Automation & Chatbots",
-      description: "24/7 customer service without hiring extra staff. Automate repetitive tasks.",
-      features: ["WhatsApp bots", "Customer support", "Lead generation", "Task automation"]
+      title: t('services.aiAutomation.title'),
+      description: t('home.servicesPreview.aiAutomation.description'),
+      features: t('home.servicesPreview.aiAutomation.features', { returnObjects: true })
     },
     {
       icon: FaMobile,
-      title: "Custom Apps & Tools",
-      description: "Simple apps that solve specific problems for your business.",
-      features: ["Booking systems", "Inventory tracking", "Customer portals", "Workflow tools"]
+      title: t('services.customApps.title'),
+      description: t('home.servicesPreview.customApps.description'),
+      features: t('home.servicesPreview.customApps.features', { returnObjects: true })
     },
     {
       icon: FaStore,
-      title: "Google Business Setup",
-      description: "Get found on Google Maps and Search. Essential for local businesses.",
-      features: ["Profile optimization", "Review management", "Local SEO", "Analytics setup"]
+      title: t('services.googleBusiness.title'),
+      description: t('home.servicesPreview.googleBusiness.description'),
+      features: t('home.servicesPreview.googleBusiness.features', { returnObjects: true })
     }
   ];
 
   // Trust elements / stats
   const stats = [
-    { number: "48hrs", label: "Average Delivery Time" },
-    { number: "100+", label: "Projects Completed" },
-    { number: "4.9/5", label: "Client Satisfaction" },
-    { number: "24/7", label: "Support Available" }
+    { number: "48hrs", label: t('home.stats.deliveryTime') },
+    { number: "100+", label: t('home.stats.projectsCompleted') },
+    { number: "4.9/5", label: t('home.stats.satisfaction') },
+    { number: "24/7", label: t('home.stats.supportAvailable') }
   ];
 
   return (
@@ -123,9 +126,9 @@ const Home = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-                Get Your Business Online.
+                {t('home.hero.title')}
                 <br />
-                <span className="text-primary-200">Fast. Affordable. Simple.</span>
+                <span className="text-primary-200">{t('home.hero.subtitle')}</span>
               </h1>
             </motion.div>
 
@@ -135,7 +138,7 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl mb-8 text-primary-50"
             >
-              We help South African small businesses thrive with websites, AI automation, and digital tools—without the big agency price tag.
+              {t('home.hero.description')}
             </motion.p>
 
             <motion.div
@@ -145,10 +148,10 @@ const Home = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
               <Link to="/contact" className="btn btn-secondary text-lg px-8 py-4">
-                Get a Free Quote
+                {t('home.hero.freeQuote')}
               </Link>
               <Link to="/services" className="btn btn-outline text-lg px-8 py-4">
-                See What's Possible
+                {t('home.hero.seePossible')}
               </Link>
             </motion.div>
 
@@ -160,15 +163,15 @@ const Home = () => {
             >
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-primary-200" />
-                <span>Delivered in Days, Not Months</span>
+                <span>{t('home.hero.deliveredFast')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-primary-200" />
-                <span>No Hidden Costs</span>
+                <span>{t('home.hero.noCosts')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <FaCheckCircle className="text-primary-200" />
-                <span>Multilingual Support</span>
+                <span>{t('home.hero.multilingual')}</span>
               </div>
             </motion.div>
           </div>
@@ -190,8 +193,8 @@ const Home = () => {
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <SectionHeader
-            title="Sound Familiar?"
-            subtitle="These are the problems we solve every day for SA businesses like yours"
+            title={t('home.painPoints.title')}
+            subtitle={t('home.painPoints.subtitle')}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -227,8 +230,8 @@ const Home = () => {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <SectionHeader
-            title="What We Can Do For You"
-            subtitle="Practical tech solutions that grow your business"
+            title={t('home.services.title')}
+            subtitle={t('home.services.subtitle')}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -266,7 +269,7 @@ const Home = () => {
             className="text-center mt-12"
           >
             <Link to="/services" className="btn btn-primary text-lg px-8 py-4">
-              See All Services
+              {t('home.services.seeAll')}
             </Link>
           </motion.div>
         </div>
@@ -276,8 +279,8 @@ const Home = () => {
       <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-700 text-white">
         <div className="container-custom">
           <SectionHeader
-            title="Why Businesses Trust Us"
-            subtitle="Real results, real fast"
+            title={t('home.stats.title')}
+            subtitle={t('home.stats.subtitle')}
             light={true}
           />
 
@@ -310,17 +313,17 @@ const Home = () => {
             className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-3xl p-8 md:p-16 text-center"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-              Ready to Upgrade Your Business?
+              {t('home.cta.title')}
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Get a free consultation and quote. No pressure, just honest advice on what will work for your business.
+              {t('home.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn btn-primary text-lg px-8 py-4">
-                Get Started Today
+                {t('home.cta.getStarted')}
               </Link>
               <Link to="/portfolio" className="btn btn-secondary text-lg px-8 py-4">
-                See Our Work
+                {t('home.cta.seeWork')}
               </Link>
             </div>
           </motion.div>

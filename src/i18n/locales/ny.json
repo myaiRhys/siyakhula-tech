@@ -47,6 +47,24 @@
       "subtitle": "Zothandiza za ukadaulo zomwe zimakulitsa bizinesi yanu",
       "seeAll": "Onani Ntchito Zonse"
     },
+    "servicesPreview": {
+      "website": {
+        "description": "Ma website amakono, omwe amagwira ntchito pa chipangizo chilichonse. Zilankhulo zambiri zilipo.",
+        "features": ["Kapangidwe ka foni poyamba", "SEO wabwino", "Kulowetsa mwachangu", "Kosavuta kusinthira"]
+      },
+      "aiAutomation": {
+        "description": "Thandizo la makasitomala 24/7 popanda kulemba anthu ena. Gwirani ntchito zokhalazokha.",
+        "features": ["Ma bot a WhatsApp", "Thandizo la makasitomala", "Kupanga atsogoleri", "Kukhala zokha kwa ntchito"]
+      },
+      "customApps": {
+        "description": "Ma app osavuta omwe amathetsa mavuto apadera a bizinesi yanu.",
+        "features": ["Machitidwe okhalira", "Kutsatira katundu", "Malo a makasitomala", "Zida za ntchito"]
+      },
+      "googleBusiness": {
+        "description": "Pezekedwani pa Google Maps ndi Search. Kofunikira kwa mabizinesi am'deralo.",
+        "features": ["Kuwongolera mbiri", "Kuyang'anira ndemanga", "SEO yam'deralo", "Kukhazikitsa ma analytics"]
+      }
+    },
     "stats": {
       "title": "Chifukwa Chake Mabizinesi Amatikhulupirira",
       "subtitle": "Zotsatira zenizeni, mwachangu",
@@ -70,35 +88,102 @@
     "website": {
       "title": "Kupanga ndi Kukweza Ma Website",
       "tagline": "Sitolo yanu ya digito yomwe imagwira ntchito 24/7",
-      "description": "Website ya akatswiri si chinthu cha kukondwerera—ndichofunikira. Timamanga ma website othamanga, amakono, omwe amagwira ntchito pa mafoni omwe amabweretsa makasitomala zenizeni."
+      "description": "Website ya akatswiri si chinthu cha kukondwerera—ndichofunikira. Timamanga ma website othamanga, amakono, omwe amagwira ntchito pa mafoni omwe amabweretsa makasitomala zenizeni.",
+      "features": [
+        "Kapangidwe kosinthika (kumawoneka bwino pa mafoni, ma tablets, makompyuta)",
+        "SEO wothuthukitsidwa kuti mukhale pamwamba pa Google",
+        "Nthawi yothamanga yotsitsa",
+        "Kuyang'anira zinthu mosavuta",
+        "Zilankhulo zambiri (Chingerezi, isiZulu, isiXhosa, Afrikaans, ndi zina)",
+        "Mafotolo olumikizana ndi ma CTA",
+        "Kuphatikizidwa ndi social media"
+      ],
+      "pricing": "From R2,500",
+      "deliveryTime": "3-7 masiku"
     },
     "aiAutomation": {
       "title": "AI Automation ndi Ma Chatbot",
       "tagline": "Gwirani ntchito mwanzeru, osati mwamphamvu",
-      "description": "Lekani kugwiritsa ntchito maola ambiri pa ntchito zobwereza. Zothandiza zathu za AI zimagwira mafunso a makasitomala, zimayesa otsogolera, ndipo zimagwiritsa ntchito automation—kuti muthe kuyang'ana pakukula kwa bizinesi."
+      "description": "Lekani kugwiritsa ntchito maola ambiri pa ntchito zobwereza. Zothandiza zathu za AI zimagwira mafunso a makasitomala, zimayesa otsogolera, ndipo zimagwiritsa ntchito automation—kuti muthe kuyang'ana pakukula kwa bizinesi.",
+      "features": [
+        "Ma chatbot a WhatsApp pa thandizo la makasitomala",
+        "Kuyesa otsogolera okha",
+        "Kutsimikizira mafunso obwerezabwereza",
+        "Ma bot okhalira",
+        "Kutumiza maimelo okha",
+        "Thandizo la makasitomala 24/7 popanda kuwonjezera antchito",
+        "Kuphatikizidwa ndi machitidwe anu omwe alipo"
+      ],
+      "pricing": "From R3,000",
+      "deliveryTime": "5-10 masiku"
     },
     "customApps": {
       "title": "Ma App Opangidwa Mwapadera ndi Zida",
       "tagline": "Thetsani mavuto anu apadera a bizinesi",
-      "description": "Mukufuna china chake chapadera? Timamanga ma app osavuta, ogwira ntchito bwino opangidwa kuti agwirizane ndi njira yanu yogwira ntchito—makina osungira malo, osungira zinthu, malo a makasitomala, ndi zina."
+      "description": "Mukufuna china chake chapadera? Timamanga ma app osavuta, ogwira ntchito bwino opangidwa kuti agwirizane ndi njira yanu yogwira ntchito—makina osungira malo, osungira zinthu, malo a makasitomala, ndi zina.",
+      "features": [
+        "Machitidwe okhalira ndi kukonza magawo pa intaneti",
+        "Zida zoyang'anira katundu",
+        "Malo a makasitomala/akatswiri",
+        "Zopanga makaundula/ma invoyisi",
+        "Kutsimikizira njira zamkati",
+        "Ma web apps omwe amagwira ntchito pa mafoni",
+        "Kuphatikizidwa ndi zida zomwe zilipo"
+      ],
+      "pricing": "From R5,000",
+      "deliveryTime": "7-14 masiku"
     },
     "googleBusiness": {
       "title": "Kukhazikitsa Google Business Profile",
       "tagline": "Pezekedwani ndi makasitomala am'deralo",
-      "description": "Onekerani pamene anthu m'dera lanu akufunafuna zomwe mumapereka. Timakweza Google Business Profile yanu kuti muonekere pa Ma Maps ndi Kusaka."
+      "description": "Onekerani pamene anthu m'dera lanu akufunafuna zomwe mumapereka. Timakweza Google Business Profile yanu kuti muonekere pa Ma Maps ndi Kusaka.",
+      "features": [
+        "Kukhazikitsa ndi kukweza mbiri yathunthu",
+        "Mndandanda wa Google Maps",
+        "Njira yokhazikitsa ndemanga",
+        "Kukweza SEO yam'deralo",
+        "Kukweza zithunzi ndi mafotokozedwe",
+        "Kukhazikitsa maola a bizinesi ndi kulumikizana",
+        "Kukonza zolemba (zosintha, zopereka, zochitika)"
+      ],
+      "pricing": "From R1,500",
+      "deliveryTime": "2-3 masiku"
     },
     "digitalMarketing": {
       "title": "Ma Package Oyamba a Digital Marketing",
       "tagline": "Pezerani makasitomala ambiri pa intaneti",
-      "description": "Malonda osavuta, ogwira ntchito omwe agwirizana ndi bajeti yanu. Kukhazikitsa ma social media, maziko a Google Ads, ma campaign a imelo—tikukuyambitsani njira yabwino."
+      "description": "Malonda osavuta, ogwira ntchito omwe agwirizana ndi bajeti yanu. Kukhazikitsa ma social media, maziko a Google Ads, ma campaign a imelo—tikukuyambitsani njira yabwino.",
+      "features": [
+        "Kukhazikitsa mbiri za social media ndi branding",
+        "Kukonza kalenda ya zinthu",
+        "Kukhazikitsa kampeni ya Google Ads",
+        "Kukhazikitsa malonda a imelo (mauthenga, zotsatsa)",
+        "Kusanthula koyambira ndi kutsatira",
+        "Kupanga tsamba lofikira",
+        "Kulemba malonda"
+      ],
+      "pricing": "From R2,000",
+      "deliveryTime": "5-7 masiku"
     },
     "consulting": {
       "title": "Uphungu wa Digital Transformation",
       "tagline": "Yendani m'dziko la digito modzidalira",
-      "description": "Simukudziwa koyamba? Tiwunika bizinesi yanu, tizindikira mwayi, ndikupanga njira yeniyeni yakukula kwa digito—palibe jargon, uphungu womveka bwino chokha."
+      "description": "Simukudziwa koyamba? Tiwunika bizinesi yanu, tizindikira mwayi, ndikupanga njira yeniyeni yakukula kwa digito—palibe jargon, uphungu womveka bwino chokha.",
+      "features": [
+        "Kuwunika zosowa za bizinesi",
+        "Malingaliro a ukadaulo",
+        "Mwayi wokhalazokha kwa njira",
+        "Njira ya ndondomeko ya digito",
+        "Thandizo la maphunziro ndi kukhazikitsa",
+        "Thandizo ndi chitsogozo chopitiriza",
+        "Zothandiza zabwino za bajeti"
+      ],
+      "pricing": "From R1,000/gawo",
+      "deliveryTime": "Kosinthika"
     },
     "pricing": {
       "from": "Kuchokera ku",
+      "startingPrice": "Mtengo woyambira",
       "delivery": "Kupereka",
       "support": "Thandizo",
       "included": "Chaphatikizidwa",
