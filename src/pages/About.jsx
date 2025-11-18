@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import {
   FaRocket,
   FaHandshake,
@@ -19,6 +20,8 @@ import SectionHeader from '../components/common/SectionHeader';
  * Company story, values, and unique selling points
  */
 const About = () => {
+  const { t } = useTranslation();
+
   const values = [
     {
       icon: FaRocket,
@@ -96,10 +99,10 @@ const About = () => {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              We Help SA Businesses Thrive Online
+              {t('about.hero.title')}
             </h1>
             <p className="text-xl md:text-2xl text-primary-100">
-              Fast, affordable tech solutions without the corporate nonsense
+              {t('about.hero.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -116,7 +119,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-                Why We Exist
+                {t('about.story.title')}
               </h2>
               <div className="space-y-4 text-lg text-gray-700">
                 <p>
@@ -148,7 +151,7 @@ const About = () => {
               />
               <div className="absolute -bottom-6 -left-6 bg-primary-600 text-white p-6 rounded-xl shadow-xl">
                 <div className="text-4xl font-bold">100+</div>
-                <div className="text-primary-100">Happy Clients</div>
+                <div className="text-primary-100">{t('about.story.happyClients')}</div>
               </div>
             </motion.div>
           </div>
@@ -159,8 +162,8 @@ const About = () => {
       <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <SectionHeader
-            title="What We Stand For"
-            subtitle="Our values drive everything we do"
+            title={t('about.values.title')}
+            subtitle={t('about.values.subtitle')}
           />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -188,8 +191,8 @@ const About = () => {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <SectionHeader
-            title="Our Strengths"
-            subtitle="What makes us different from other tech providers"
+            title={t('about.strengths.title')}
+            subtitle={t('about.strengths.subtitle')}
           />
 
           <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -219,8 +222,8 @@ const About = () => {
       <section className="section-padding bg-gradient-to-br from-primary-600 to-primary-800 text-white">
         <div className="container-custom">
           <SectionHeader
-            title="Why SA Businesses Need Digital Solutions"
-            subtitle="The reality of small business in South Africa today"
+            title={t('about.whySA.title')}
+            subtitle={t('about.whySA.subtitle')}
             light={true}
           />
 
@@ -251,8 +254,8 @@ const About = () => {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <SectionHeader
-            title="Our Quick-Delivery Approach"
-            subtitle="How we get results fast without compromising quality"
+            title={t('about.approach.title')}
+            subtitle={t('about.approach.subtitle')}
           />
 
           <div className="max-w-4xl mx-auto">
@@ -316,13 +319,13 @@ const About = () => {
             className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-3xl p-8 md:p-16 text-center"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-              Let's Grow Your Business Together
+              {t('about.ctaTitle')}
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Ready to upgrade your business in days, not months? Let's chat—no pressure, just honest advice.
+              {t('about.ctaDescription')}
             </p>
             <Link to="/contact" className="btn btn-primary text-lg px-8 py-4">
-              Get Free Consultation
+              {t('about.ctaButton')}
             </Link>
           </motion.div>
         </div>

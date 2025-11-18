@@ -47,6 +47,24 @@
       "subtitle": "Practical tech solutions that grow your business",
       "seeAll": "See All Services"
     },
+    "servicesPreview": {
+      "website": {
+        "description": "Modern, responsive websites that work on any device. Multilingual options available.",
+        "features": ["Mobile-first design", "SEO optimized", "Fast loading", "Easy to update"]
+      },
+      "aiAutomation": {
+        "description": "24/7 customer service without hiring extra staff. Automate repetitive tasks.",
+        "features": ["WhatsApp bots", "Customer support", "Lead generation", "Task automation"]
+      },
+      "customApps": {
+        "description": "Simple apps that solve specific problems for your business.",
+        "features": ["Booking systems", "Inventory tracking", "Customer portals", "Workflow tools"]
+      },
+      "googleBusiness": {
+        "description": "Get found on Google Maps and Search. Essential for local businesses.",
+        "features": ["Profile optimization", "Review management", "Local SEO", "Analytics setup"]
+      }
+    },
     "stats": {
       "title": "Why Businesses Trust Us",
       "subtitle": "Real results, real fast",
@@ -70,35 +88,102 @@
     "website": {
       "title": "Website Creation & Upgrades",
       "tagline": "Your digital storefront that works 24/7",
-      "description": "A professional website isn't a luxury anymore—it's essential. We build fast, modern, mobile-friendly sites that actually bring in customers."
+      "description": "A professional website isn't a luxury anymore—it's essential. We build fast, modern, mobile-friendly sites that actually bring in customers.",
+      "features": [
+        "Responsive design (looks great on phones, tablets, desktops)",
+        "SEO optimized to rank on Google",
+        "Fast loading times",
+        "Easy content management",
+        "Multilingual options (English, isiZulu, isiXhosa, Afrikaans, etc.)",
+        "Contact forms and CTAs",
+        "Social media integration"
+      ],
+      "pricing": "From R2,500",
+      "deliveryTime": "3-7 days"
     },
     "aiAutomation": {
       "title": "AI Automation & Chatbots",
       "tagline": "Work smarter, not harder",
-      "description": "Stop spending hours on repetitive tasks. Our AI solutions handle customer queries, qualify leads, and automate workflows—so you can focus on growing your business."
+      "description": "Stop spending hours on repetitive tasks. Our AI solutions handle customer queries, qualify leads, and automate workflows—so you can focus on growing your business.",
+      "features": [
+        "WhatsApp chatbots for customer service",
+        "Automated lead qualification",
+        "FAQ automation",
+        "Appointment booking bots",
+        "Email automation",
+        "24/7 customer support without extra staff",
+        "Integration with your existing systems"
+      ],
+      "pricing": "From R3,000",
+      "deliveryTime": "5-10 days"
     },
     "customApps": {
       "title": "Custom Apps & Tools",
       "tagline": "Solve your unique business problems",
-      "description": "Need something specific? We build simple, effective apps tailored to your workflow—booking systems, inventory trackers, customer portals, and more."
+      "description": "Need something specific? We build simple, effective apps tailored to your workflow—booking systems, inventory trackers, customer portals, and more.",
+      "features": [
+        "Online booking and scheduling systems",
+        "Inventory management tools",
+        "Customer/client portals",
+        "Quote/invoice generators",
+        "Internal workflow automation",
+        "Mobile-friendly web apps",
+        "Integration with existing tools"
+      ],
+      "pricing": "From R5,000",
+      "deliveryTime": "7-14 days"
     },
     "googleBusiness": {
       "title": "Google Business Profile Setup",
       "tagline": "Get found by local customers",
-      "description": "Show up when people in your area search for what you offer. We optimize your Google Business Profile so you appear on Maps and Search."
+      "description": "Show up when people in your area search for what you offer. We optimize your Google Business Profile so you appear on Maps and Search.",
+      "features": [
+        "Complete profile setup and optimization",
+        "Google Maps listing",
+        "Review management strategy",
+        "Local SEO optimization",
+        "Photo and description optimization",
+        "Business hours and contact setup",
+        "Post scheduling (updates, offers, events)"
+      ],
+      "pricing": "From R1,500",
+      "deliveryTime": "2-3 days"
     },
     "digitalMarketing": {
       "title": "Digital Marketing Starter Packages",
       "tagline": "Get more customers online",
-      "description": "Simple, effective marketing that fits your budget. Social media setup, Google Ads basics, email campaigns—we get you started the right way."
+      "description": "Simple, effective marketing that fits your budget. Social media setup, Google Ads basics, email campaigns—we get you started the right way.",
+      "features": [
+        "Social media profile setup and branding",
+        "Content calendar planning",
+        "Google Ads campaign setup",
+        "Email marketing setup (newsletters, promos)",
+        "Basic analytics and tracking",
+        "Landing page creation",
+        "Ad copywriting"
+      ],
+      "pricing": "From R2,000",
+      "deliveryTime": "5-7 days"
     },
     "consulting": {
       "title": "Digital Transformation Consulting",
       "tagline": "Navigate the digital world with confidence",
-      "description": "Not sure where to start? We'll assess your business, identify opportunities, and create a realistic roadmap for digital growth—no jargon, just clear advice."
+      "description": "Not sure where to start? We'll assess your business, identify opportunities, and create a realistic roadmap for digital growth—no jargon, just clear advice.",
+      "features": [
+        "Business needs assessment",
+        "Technology recommendations",
+        "Process automation opportunities",
+        "Digital strategy roadmap",
+        "Training and onboarding support",
+        "Ongoing support and guidance",
+        "Budget-friendly solutions"
+      ],
+      "pricing": "From R1,000/session",
+      "deliveryTime": "Flexible"
     },
     "pricing": {
       "from": "From",
+      "startingPrice": "Starting price",
       "delivery": "Delivery",
       "support": "Support",
       "included": "Included",

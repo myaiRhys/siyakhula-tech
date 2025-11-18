@@ -47,6 +47,24 @@
       "subtitle": "Praktiese tegnologie-oplossings wat jou besigheid laat groei",
       "seeAll": "Sien Alle Dienste"
     },
+    "servicesPreview": {
+      "website": {
+        "description": "Moderne, responsiewe webwerwe wat op enige toestel werk. Meertalige opsies beskikbaar.",
+        "features": ["Mobiel-eerste ontwerp", "SEO geoptimaliseer", "Vinnige laai", "Maklik om op te dateer"]
+      },
+      "aiAutomation": {
+        "description": "24/7 kliëntediens sonder om ekstra personeel aan te stel. Outomatiseer herhalende take.",
+        "features": ["WhatsApp botte", "Kliënteondersteuning", "Leidraad generasie", "Taak outomatisering"]
+      },
+      "customApps": {
+        "description": "Eenvoudige programme wat spesifieke probleme vir jou besigheid oplos.",
+        "features": ["Besprekingstelsels", "Voorraadopsporing", "Kliënteportale", "Werksvloei gereedskap"]
+      },
+      "googleBusiness": {
+        "description": "Word gevind op Google Kaarte en Soek. Noodsaaklik vir plaaslike besighede.",
+        "features": ["Profiel optimalisering", "Resensie bestuur", "Plaaslike SEO", "Analise opstel"]
+      }
+    },
     "stats": {
       "title": "Hoekom Besighede Ons Vertrou",
       "subtitle": "Regte resultate, baie vinnig",
@@ -70,35 +88,102 @@
     "website": {
       "title": "Webwerf Skepping & Opgraderings",
       "tagline": "Jou digitale winkel wat 24/7 werk",
-      "description": "'n Professionele webwerf is nie meer 'n luukse nie—dit is noodsaaklik. Ons bou vinnige, moderne, selfoon-vriendelike werwe wat werklik kliënte inbring."
+      "description": "'n Professionele webwerf is nie meer 'n luukse nie—dit is noodsaaklik. Ons bou vinnige, moderne, selfoon-vriendelike werwe wat werklik kliënte inbring.",
+      "features": [
+        "Responsiewe ontwerp (lyk mooi op selfone, tablette, rekenaars)",
+        "SEO geoptimaliseer om op Google te rangskik",
+        "Vinnige laai tye",
+        "Maklike inhoud bestuur",
+        "Meertalige opsies (Engels, isiZulu, isiXhosa, Afrikaans, ens.)",
+        "Kontak vorms en CTA's",
+        "Sosiale media integrasie"
+      ],
+      "pricing": "From R2,500",
+      "deliveryTime": "3-7 dae"
     },
     "aiAutomation": {
       "title": "KI Outomatisering & Chatbots",
       "tagline": "Werk slimmer, nie harder nie",
-      "description": "Stop om ure te spandeer op herhalende take. Ons KI-oplossings hanteer kliënte se navrae, kwalifiseer leidrade, en outomatiseer werksvloeie—sodat jy kan fokus op besigheidsgroei."
+      "description": "Stop om ure te spandeer op herhalende take. Ons KI-oplossings hanteer kliënte se navrae, kwalifiseer leidrade, en outomatiseer werksvloeie—sodat jy kan fokus op besigheidsgroei.",
+      "features": [
+        "WhatsApp chatbots vir kliëntediens",
+        "Outomatiese leidraad kwalifisering",
+        "FAQ outomatisering",
+        "Afspraak besprekings bots",
+        "E-pos outomatisering",
+        "24/7 kliënteondersteuning sonder ekstra personeel",
+        "Integrasie met jou bestaande stelsels"
+      ],
+      "pricing": "From R3,000",
+      "deliveryTime": "5-10 dae"
     },
     "customApps": {
       "title": "Pasgemaakte Toepassings & Gereedskap",
       "tagline": "Los jou unieke besigheidsprobleme op",
-      "description": "Het jy iets spesifieks nodig? Ons bou eenvoudige, effektiewe toepassings aangepas vir jou werksvloei—bespreking stelsels, inventaris naspoor, kliënte-portale, en meer."
+      "description": "Het jy iets spesifieks nodig? Ons bou eenvoudige, effektiewe toepassings aangepas vir jou werksvloei—bespreking stelsels, inventaris naspoor, kliënte-portale, en meer.",
+      "features": [
+        "Aanlyn bespreking en skedulering stelsels",
+        "Voorraad bestuur gereedskap",
+        "Kliënt/klant portale",
+        "Kwotasie/faktuur genereerders",
+        "Interne werksvloei outomatisering",
+        "Selfoon-vriendelike web apps",
+        "Integrasie met bestaande gereedskap"
+      ],
+      "pricing": "From R5,000",
+      "deliveryTime": "7-14 dae"
     },
     "googleBusiness": {
       "title": "Google Besigheidsprofiel Opstel",
       "tagline": "Word gevind deur plaaslike kliënte",
-      "description": "Verskyn wanneer mense in jou area soek vir wat jy bied. Ons optimaliseer jou Google Besigheidsprofiel sodat jy verskyn op Kaarte en Soek."
+      "description": "Verskyn wanneer mense in jou area soek vir wat jy bied. Ons optimaliseer jou Google Besigheidsprofiel sodat jy verskyn op Kaarte en Soek.",
+      "features": [
+        "Volledige profiel opstel en optimalisering",
+        "Google Kaarte lys",
+        "Resensie bestuur strategie",
+        "Plaaslike SEO optimalisering",
+        "Foto en beskrywing optimalisering",
+        "Besigheidsure en kontak opstel",
+        "Plasing skedulering (opdaterings, aanbiedinge, gebeure)"
+      ],
+      "pricing": "From R1,500",
+      "deliveryTime": "2-3 dae"
     },
     "digitalMarketing": {
       "title": "Digitale Bemarking Beginpakkette",
       "tagline": "Kry meer kliënte aanlyn",
-      "description": "Eenvoudige, effektiewe bemarking wat by jou begroting pas. Sosiale media opstel, Google Ads basisse, e-pos veldtogte—ons kry jou op die regte pad."
+      "description": "Eenvoudige, effektiewe bemarking wat by jou begroting pas. Sosiale media opstel, Google Ads basisse, e-pos veldtogte—ons kry jou op die regte pad.",
+      "features": [
+        "Sosiale media profiel opstel en handelsmerk",
+        "Inhoud kalender beplanning",
+        "Google Ads veldtog opstel",
+        "E-pos bemarking opstel (nuusbriewe, promosies)",
+        "Basiese analise en naspoor",
+        "Landingsblad skepping",
+        "Advertensie skrif"
+      ],
+      "pricing": "From R2,000",
+      "deliveryTime": "5-7 dae"
     },
     "consulting": {
       "title": "Digitale Transformasie Konsultasie",
       "tagline": "Navigeer die digitale wêreld met vertroue",
-      "description": "Nie seker waar om te begin nie? Ons sal jou besigheid evalueer, geleenthede identifiseer, en 'n realistiese padkaart skep vir digitale groei—geen jargon nie, net duidelike advies."
+      "description": "Nie seker waar om te begin nie? Ons sal jou besigheid evalueer, geleenthede identifiseer, en 'n realistiese padkaart skep vir digitale groei—geen jargon nie, net duidelike advies.",
+      "features": [
+        "Besigheidsbehoeftes assessering",
+        "Tegnologie aanbevelings",
+        "Proses outomatisering geleenthede",
+        "Digitale strategie padkaart",
+        "Opleiding en inlywing ondersteuning",
+        "Voortdurende ondersteuning en leiding",
+        "Begroting-vriendelike oplossings"
+      ],
+      "pricing": "From R1,000/sessie",
+      "deliveryTime": "Buigsaam"
     },
     "pricing": {
       "from": "Vanaf",
+      "startingPrice": "Begin prys",
       "delivery": "Aflewering",
       "support": "Ondersteuning",
       "included": "Ingesluit",

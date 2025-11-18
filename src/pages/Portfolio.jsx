@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { FaStar, FaQuoteLeft, FaExternalLinkAlt, FaCheckCircle } from 'react-icons/fa';
 import SectionHeader from '../components/common/SectionHeader';
 
@@ -8,6 +9,7 @@ import SectionHeader from '../components/common/SectionHeader';
  * Showcase of work examples and client testimonials
  */
 const Portfolio = () => {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('all');
 
   const projects = [
@@ -145,11 +147,11 @@ const Portfolio = () => {
   ];
 
   const categories = [
-    { id: 'all', label: 'All Projects' },
-    { id: 'website', label: 'Websites' },
-    { id: 'automation', label: 'AI & Automation' },
-    { id: 'app', label: 'Custom Apps' },
-    { id: 'marketing', label: 'Marketing' }
+    { id: 'all', label: t('portfolio.filters.all') },
+    { id: 'website', label: t('portfolio.filters.websites') },
+    { id: 'automation', label: t('portfolio.filters.automation') },
+    { id: 'app', label: t('portfolio.filters.apps') },
+    { id: 'marketing', label: t('portfolio.filters.marketing') }
   ];
 
   const filteredProjects = activeTab === 'all'
@@ -168,10 +170,10 @@ const Portfolio = () => {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Real Results for Real Businesses
+              {t('portfolio.hero.title')}
             </h1>
             <p className="text-xl md:text-2xl text-primary-100">
-              See how we've helped SA small businesses grow with practical tech solutions
+              {t('portfolio.hero.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -234,11 +236,11 @@ const Portfolio = () => {
                   <div className="bg-gray-50 rounded-lg p-4 mb-4">
                     <div className="grid grid-cols-2 gap-4 text-sm">
                       <div>
-                        <div className="font-semibold text-red-600 mb-1">❌ Before:</div>
+                        <div className="font-semibold text-red-600 mb-1">❌ {t('portfolio.before')}:</div>
                         <p className="text-gray-700">{project.before}</p>
                       </div>
                       <div>
-                        <div className="font-semibold text-green-600 mb-1">✅ After:</div>
+                        <div className="font-semibold text-green-600 mb-1">✅ {t('portfolio.after')}:</div>
                         <p className="text-gray-700">{project.after}</p>
                       </div>
                     </div>
@@ -246,7 +248,7 @@ const Portfolio = () => {
 
                   {/* Results */}
                   <div className="space-y-2">
-                    <div className="font-semibold text-gray-900">Results:</div>
+                    <div className="font-semibold text-gray-900">{t('portfolio.results')}:</div>
                     {project.results.map((result, idx) => (
                       <div key={idx} className="flex items-start gap-2 text-gray-700">
                         <FaCheckCircle className="text-primary-500 mt-1 flex-shrink-0" />
@@ -265,8 +267,8 @@ const Portfolio = () => {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <SectionHeader
-            title="What Our Clients Say"
-            subtitle="Don't just take our word for it—here's what real business owners have to say"
+            title={t('portfolio.testimonials.title')}
+            subtitle={t('portfolio.testimonials.subtitle')}
           />
 
           <div className="grid md:grid-cols-2 gap-8 mt-12">
@@ -320,16 +322,16 @@ const Portfolio = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to See Results Like These?
+              {t('portfolio.ctaTitle')}
             </h2>
             <p className="text-xl mb-8 text-primary-100">
-              Let's chat about your business goals and create a plan that actually works.
+              {t('portfolio.ctaDescription')}
             </p>
             <a
               href="/contact"
               className="btn btn-secondary text-lg px-8 py-4 inline-block"
             >
-              Get Your Free Quote
+              {t('portfolio.ctaButton')}
             </a>
           </motion.div>
         </div>
