@@ -2,12 +2,15 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from '../common/LanguageSelector';
 
 /**
  * Navbar Component
  * Responsive navigation with mobile menu, scroll effects, and smooth animations
  */
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
@@ -27,11 +30,11 @@ const Navbar = () => {
   }, [location]);
 
   const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'Services', path: '/services' },
-    { name: 'Portfolio', path: '/portfolio' },
-    { name: 'About', path: '/about' },
-    { name: 'Contact', path: '/contact' },
+    { name: t('nav.home'), path: '/' },
+    { name: t('nav.services'), path: '/services' },
+    { name: t('nav.portfolio'), path: '/portfolio' },
+    { name: t('nav.about'), path: '/about' },
+    { name: t('nav.contact'), path: '/contact' },
   ];
 
   return (
@@ -80,8 +83,9 @@ const Navbar = () => {
                 scrolled ? 'btn-primary' : 'btn-outline'
               }`}
             >
-              Get Started
+              {t('nav.getStarted')}
             </Link>
+            <LanguageSelector scrolled={scrolled} />
           </div>
 
           {/* Mobile Menu Button */}
@@ -120,10 +124,13 @@ const Navbar = () => {
                     {link.name}
                   </Link>
                 ))}
-                <div className="px-6 pt-2">
+                <div className="px-6 pt-2 space-y-3">
                   <Link to="/contact" className="btn btn-primary w-full text-center block">
-                    Get Started
+                    {t('nav.getStarted')}
                   </Link>
+                  <div className="flex justify-center">
+                    <LanguageSelector scrolled={true} />
+                  </div>
                 </div>
               </div>
             </motion.div>

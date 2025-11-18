@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Ku Nyumba",
+    "services": "Ntchito",
+    "portfolio": "Ntchito Zathu",
+    "about": "Za Ife",
+    "contact": "Lankhulani Nafe",
+    "getStarted": "Yambani Tsopano"
+  },
+  "home": {
+    "hero": {
+      "title": "Ikani Bizinesi Yanu Pa Intaneti.",
+      "subtitle": "Mwachangu. Motsika Mtengo. Mosavuta.",
+      "description": "Timathandiza mabizinesi ang'onoang'ono ku South Africa kuti apambane ndi ma website, ma AI automation, ndi zida za digito—popanda mtengo waukulu wa makampani akulu.",
+      "freeQuote": "Landilani Chiwerengero Chaulere",
+      "seePossible": "Onani Zomwe Zingatheke",
+      "deliveredFast": "Kupezekedwa m'Masiku, Osati Miyezi",
+      "noCosts": "Palibe Ndalama Zobisika",
+      "multilingual": "Thandizo la Zilankhulo Zambiri"
+    },
+    "painPoints": {
+      "title": "Mukumva Izi?",
+      "subtitle": "Izi ndi mavuto omwe timathetsa tsiku ndi tsiku kwa mabizinesi a South Africa ngati anu",
+      "noWebsite": {
+        "title": "Palibe Website Kapena Website Yakale",
+        "description": "Opikisana nanu ali pa intaneti. Inu simuli. Kapena zoipa—website yanu ikuwoneka ngati yachokera mu 2010.",
+        "solution": "Landilani website yamakono, yomwe imagwira ntchito pa mafoni m'masiku."
+      },
+      "missingAutomation": {
+        "title": "Mukutaya Mwayi wa Automation",
+        "description": "Mukugwiritsa ntchito maola ambiri pa ntchito zobwereza monga kuyankha mafunso a makasitomala kapena kukonza magawo.",
+        "solution": "Gwiritsirani ntchito automation ndi ma AI chatbots ndi njira zanzeru zogwira ntchito."
+      },
+      "cantReach": {
+        "title": "Simungathe Kufikira Msika Wanu Wonse",
+        "description": "South Africa ili ndi zilankhulo zambiri, koma website yanu imalankhula Chingerezi chokha.",
+        "solution": "Lumikizanani ndi makasitomala mu isiZulu, isiXhosa, Afrikaans, ndi zina."
+      },
+      "tooExpensive": {
+        "title": "Ukadaulo Ndi Wodula Kwambiri",
+        "description": "Mwauzidwa R50,000+ pamakina oyambira a website. Izi sizotheka kwa mabizinesi ang'onoang'ono.",
+        "solution": "Njira zothandiza mwachangu, zotsika mtengo zopangidwa kuti zigwirizane ndi bajeti yanu."
+      }
+    },
+    "services": {
+      "title": "Tingakuchitirani Chiyani",
+      "subtitle": "Zothandiza za ukadaulo zomwe zimakulitsa bizinesi yanu",
+      "seeAll": "Onani Ntchito Zonse"
+    },
+    "stats": {
+      "title": "Chifukwa Chake Mabizinesi Amatikhulupirira",
+      "subtitle": "Zotsatira zenizeni, mwachangu",
+      "deliveryTime": "Nthawi Yoyerekezera Yoperekera",
+      "projectsCompleted": "Ma Project Omalizidwa",
+      "satisfaction": "Kukhutira Kwa Makasitomala",
+      "supportAvailable": "Thandizo Lipo"
+    },
+    "cta": {
+      "title": "Muli Okonzeka Kukweza Bizinesi Yanu?",
+      "description": "Landilani ulangizi ndi chiwerengero chaulere. Palibe kukakamizidwa, uphungu weniweni chokha pa zomwe zingagwire ntchito pa bizinesi yanu.",
+      "getStarted": "Yambani Lero",
+      "seeWork": "Onani Ntchito Yathu"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Ntchito Zomwe Zimakulitsa Bizinesi Yanu",
+      "subtitle": "Mwachangu, motsika mtengo, ndipo zenizeni zothandiza. Sankhani zomwe mukufuna—kapena lumikizani kuti mupeze zotsatira zazikulu."
+    },
+    "website": {
+      "title": "Kupanga ndi Kukweza Ma Website",
+      "tagline": "Sitolo yanu ya digito yomwe imagwira ntchito 24/7",
+      "description": "Website ya akatswiri si chinthu cha kukondwerera—ndichofunikira. Timamanga ma website othamanga, amakono, omwe amagwira ntchito pa mafoni omwe amabweretsa makasitomala zenizeni."
+    },
+    "aiAutomation": {
+      "title": "AI Automation ndi Ma Chatbot",
+      "tagline": "Gwirani ntchito mwanzeru, osati mwamphamvu",
+      "description": "Lekani kugwiritsa ntchito maola ambiri pa ntchito zobwereza. Zothandiza zathu za AI zimagwira mafunso a makasitomala, zimayesa otsogolera, ndipo zimagwiritsa ntchito automation—kuti muthe kuyang'ana pakukula kwa bizinesi."
+    },
+    "customApps": {
+      "title": "Ma App Opangidwa Mwapadera ndi Zida",
+      "tagline": "Thetsani mavuto anu apadera a bizinesi",
+      "description": "Mukufuna china chake chapadera? Timamanga ma app osavuta, ogwira ntchito bwino opangidwa kuti agwirizane ndi njira yanu yogwira ntchito—makina osungira malo, osungira zinthu, malo a makasitomala, ndi zina."
+    },
+    "googleBusiness": {
+      "title": "Kukhazikitsa Google Business Profile",
+      "tagline": "Pezekedwani ndi makasitomala am'deralo",
+      "description": "Onekerani pamene anthu m'dera lanu akufunafuna zomwe mumapereka. Timakweza Google Business Profile yanu kuti muonekere pa Ma Maps ndi Kusaka."
+    },
+    "digitalMarketing": {
+      "title": "Ma Package Oyamba a Digital Marketing",
+      "tagline": "Pezerani makasitomala ambiri pa intaneti",
+      "description": "Malonda osavuta, ogwira ntchito omwe agwirizana ndi bajeti yanu. Kukhazikitsa ma social media, maziko a Google Ads, ma campaign a imelo—tikukuyambitsani njira yabwino."
+    },
+    "consulting": {
+      "title": "Uphungu wa Digital Transformation",
+      "tagline": "Yendani m'dziko la digito modzidalira",
+      "description": "Simukudziwa koyamba? Tiwunika bizinesi yanu, tizindikira mwayi, ndikupanga njira yeniyeni yakukula kwa digito—palibe jargon, uphungu womveka bwino chokha."
+    },
+    "pricing": {
+      "from": "Kuchokera ku",
+      "delivery": "Kupereka",
+      "support": "Thandizo",
+      "included": "Chaphatikizidwa",
+      "getQuote": "Landilani Chiwerengero",
+      "whatsappUs": "Titumizirani WhatsApp"
+    },
+    "whyUs": {
+      "title": "Chifukwa Chiyani Mugwire Ntchito Nafe?",
+      "subtitle": "Sitifanana ndi makampani akulu omwe ali ndi nthawi ya miyezi 6 ndi jargon ya kampani",
+      "fastDelivery": {
+        "title": "Kupereka Mwachangu",
+        "description": "Ma project ambiri amaperekedwa m'masiku, osati miyezi. Mudzawona zotsatira mwachangu."
+      },
+      "clearComm": {
+        "title": "Kulumikizana Komveka",
+        "description": "Palibe jargon ya ukadaulo. Timalongosola zonse m'chilankhulo chomveka kuti mumvetsetse zomwe mukulandira."
+      },
+      "results": {
+        "title": "Kuyang'ana pa Zotsatira",
+        "description": "Timamanga zinthu zomwe zimathandiza bizinesi yanu kukula zenizeni—makasitomala ambiri, ntchito yochepa yamanja, kuwonekera kwabwino."
+      }
+    },
+    "ctaTitle": "Simukudziwa Zomwe Mukufuna?",
+    "ctaDescription": "Sungani uphungu waulere. Tidzalankhula za zolinga zanu za bizinesi ndikukulangizani zothandiza zabwino za bajeti yanu.",
+    "ctaButton": "Landilani Uphungu Waulere"
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Zotsatira Zenizeni kwa Mabizinesi Enieni",
+      "subtitle": "Onani momwe tathandizira mabizinesi ang'onoang'ono a South Africa kukula ndi zothandiza za ukadaulo zogwira ntchito"
+    },
+    "filters": {
+      "all": "Ma Project Onse",
+      "websites": "Ma Website",
+      "automation": "AI ndi Automation",
+      "apps": "Ma App Opangidwa Mwapadera",
+      "marketing": "Malonda"
+    },
+    "before": "Asanachitike",
+    "after": "Patatha",
+    "results": "Zotsatira",
+    "testimonials": {
+      "title": "Zomwe Makasitomala Athu Akunena",
+      "subtitle": "Musangotengan mawu athu okha—nanga zomwe eni mabizinesi enieni akunena"
+    },
+    "ctaTitle": "Muli Okonzeka Kuwona Zotsatira Ngati Izi?",
+    "ctaDescription": "Tiyeni tilankhule za zolinga zanu za bizinesi ndikupanga dongosolo lomwe limagwira ntchito zenizeni.",
+    "ctaButton": "Landilani Chiwerengero Chanu Chaulere"
+  },
+  "about": {
+    "hero": {
+      "title": "Timathandiza Mabizinesi a South Africa Kupambana Pa Intaneti",
+      "subtitle": "Zothandiza za ukadaulo mwachangu, motsika mtengo popanda zopanda pake za kampani"
+    },
+    "story": {
+      "title": "Chifukwa Chake Tili Pano",
+      "happyClients": "Makasitomala Okondwa"
+    },
+    "values": {
+      "title": "Zomwe Timaimirira",
+      "subtitle": "Miyezo yathu imayendetsa zonse zomwe timachita"
+    },
+    "strengths": {
+      "title": "Mphamvu Zathu",
+      "subtitle": "Zomwe zimatisiyanitsa ndi opereka ukadaulo ena"
+    },
+    "whySA": {
+      "title": "Chifukwa Chiyani Mabizinesi a South Africa Akufunikira Zothandiza za Digito",
+      "subtitle": "Zenizeni za bizinesi yaying'ono ku South Africa lero"
+    },
+    "approach": {
+      "title": "Njira Yathu Yopereka Mwachangu",
+      "subtitle": "Mmene timapezera zotsatira mwachangu popanda kusokoneza khalidwe"
+    },
+    "ctaTitle": "Tiyeni Tikulitse Bizinesi Yanu Pamodzi",
+    "ctaDescription": "Muli okonzeka kukweza bizinesi yanu m'masiku, osati miyezi? Tiyeni tilankhule—palibe kukakamizidwa, uphungu weniweni chokha.",
+    "ctaButton": "Landilani Uphungu Waulere"
+  },
+  "contact": {
+    "hero": {
+      "title": "Tiyeni Timange Chinthu Chabwino Pamodzi",
+      "subtitle": "Landilani chiwerengero chaulere ndi uphungu weniweni. Palibe kukakamizidwa, palibe jargon."
+    },
+    "methods": {
+      "whatsapp": {
+        "title": "Titumizirani WhatsApp",
+        "description": "Njira yothamanga kwambiri yotidziwiritsa"
+      },
+      "email": {
+        "title": "Imelo",
+        "description": "Timayankha mkati mwa maola 24"
+      },
+      "phone": {
+        "title": "Tiyimbirani",
+        "description": "Lolemba-Lachisanu, 9am-6pm SAST"
+      }
+    },
+    "form": {
+      "title": "Landilani Chiwerengero Chaulere",
+      "description": "Lembani mafotolo pansipa ndipo tidzabwerera kwa inu mkati mwa maola 24 ndi malingaliro omveka.",
+      "name": "Dzina Lanu",
+      "email": "Imelo",
+      "phone": "Foni",
+      "business": "Dzina la Bizinesi",
+      "service": "Ntchito Yomwe Muli Ndi Chidwi",
+      "selectService": "Sankhani ntchito",
+      "budget": "Bajeti Yoyerekezera",
+      "selectBudget": "Sankhani mawonekedwe a bajeti yanu",
+      "message": "Tiuzeni Za Project Yanu",
+      "messagePlaceholder": "Mukufuna thandizo pa chiyani? Zolinga zanu n'zotani?",
+      "send": "Tumizani Uthenga",
+      "thankYou": "Zikomo!",
+      "successMessage": "Talandila uthenga wanu ndipo tidzabwerera kwa inu mkati mwa maola 24."
+    },
+    "info": {
+      "title": "Zambiri Zolumikizirana",
+      "location": "Malo",
+      "locationDetail": "Cape Town, South Africa",
+      "servingAll": "Tikuthandiza South Africa yonse kutali",
+      "hours": "Maola a Bizinesi",
+      "weekdays": "Lolemba - Lachisanu: 9am - 6pm",
+      "saturday": "Loweruka: 10am - 2pm",
+      "whatsapp247": "WhatsApp iri 24/7"
+    },
+    "whatsappCta": {
+      "title": "Mukonda WhatsApp?",
+      "description": "Landilani mayankho mwachangu pa mafunso anu. Lankhulani nafe tsopano!",
+      "button": "Yambani Kukambirana pa WhatsApp"
+    },
+    "faqs": {
+      "title": "Mayankho Othamanga"
+    }
+  },
+  "footer": {
+    "description": "Zothandiza za ukadaulo mwachangu, motsika mtengo kwa mabizinesi a South Africa. Timathandiza ma SME kupambana m'nthawi ya digito.",
+    "services": "Ntchito",
+    "company": "Kampani",
+    "contactTitle": "Lankhulani Nafe",
+    "allRights": "Ufulu wonse usungidwa",
+    "privacy": "Mfundo ya Chinsinsi",
+    "terms": "Malamulo a Ntchito"
+  }
+}

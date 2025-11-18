@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Tuis",
+    "services": "Dienste",
+    "portfolio": "Portefeulje",
+    "about": "Oor Ons",
+    "contact": "Kontak",
+    "getStarted": "Begin Nou"
+  },
+  "home": {
+    "hero": {
+      "title": "Kry Jou Besigheid Aanlyn.",
+      "subtitle": "Vinnig. Bekostigbaar. Eenvoudig.",
+      "description": "Ons help Suid-Afrikaanse klein besighede floreer met webwerwe, KI-outomatisering en digitale gereedskap—sonder die groot agentskap se pryskaartjie.",
+      "freeQuote": "Kry 'n Gratis Kwotasie",
+      "seePossible": "Sien Wat Moontlik Is",
+      "deliveredFast": "Gelewer in Dae, Nie Maande Nie",
+      "noCosts": "Geen Verskuilde Koste",
+      "multilingual": "Meertalige Ondersteuning"
+    },
+    "painPoints": {
+      "title": "Klink Dit Bekend?",
+      "subtitle": "Dit is die probleme wat ons elke dag oplos vir SA besighede soos joune",
+      "noWebsite": {
+        "title": "Geen Webwerf of Verouderde Werf",
+        "description": "Jou mededingers is aanlyn. Jy is nie. Of erger—jou werf lyk of dit uit 2010 kom.",
+        "solution": "Kry 'n moderne, selfoon-vriendelike webwerf in dae."
+      },
+      "missingAutomation": {
+        "title": "Mis Uit op Outomatisering",
+        "description": "Spandeer ure op herhalende take soos om kliënte se vrae te beantwoord of skedulering.",
+        "solution": "Outomatiseer met KI chatbots en slim werksvloeie."
+      },
+      "cantReach": {
+        "title": "Kan Nie Jou Volle Mark Bereik Nie",
+        "description": "Suid-Afrika is meertalig, maar jou werf praat net Engels.",
+        "solution": "Koppel aan kliënte in isiZulu, isiXhosa, Afrikaans, en meer."
+      },
+      "tooExpensive": {
+        "title": "Tegnologie is Te Duur",
+        "description": "Jy is gekwoteer R50,000+ vir basiese web-ontwikkeling. Dit is nie realisties vir klein besighede nie.",
+        "solution": "Vinnige, bekostigbare oplossings aangepas vir jou begroting."
+      }
+    },
+    "services": {
+      "title": "Wat Ons Vir Jou Kan Doen",
+      "subtitle": "Praktiese tegnologie-oplossings wat jou besigheid laat groei",
+      "seeAll": "Sien Alle Dienste"
+    },
+    "stats": {
+      "title": "Hoekom Besighede Ons Vertrou",
+      "subtitle": "Regte resultate, baie vinnig",
+      "deliveryTime": "Gemiddelde Afleweringstyd",
+      "projectsCompleted": "Projekte Voltooi",
+      "satisfaction": "Kliënt Tevredenheid",
+      "supportAvailable": "Ondersteuning Beskikbaar"
+    },
+    "cta": {
+      "title": "Gereed om Jou Besigheid te Opgradeer?",
+      "description": "Kry 'n gratis konsultasie en kwotasie. Geen druk nie, net eerlike advies oor wat sal werk vir jou besigheid.",
+      "getStarted": "Begin Vandag",
+      "seeWork": "Sien Ons Werk"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Dienste Wat Jou Besigheid Laat Groei",
+      "subtitle": "Vinnig, bekostigbaar, en eintlik nuttig. Kies wat jy nodig het—of bundel vir maksimum impak."
+    },
+    "website": {
+      "title": "Webwerf Skepping & Opgraderings",
+      "tagline": "Jou digitale winkel wat 24/7 werk",
+      "description": "'n Professionele webwerf is nie meer 'n luukse nie—dit is noodsaaklik. Ons bou vinnige, moderne, selfoon-vriendelike werwe wat werklik kliënte inbring."
+    },
+    "aiAutomation": {
+      "title": "KI Outomatisering & Chatbots",
+      "tagline": "Werk slimmer, nie harder nie",
+      "description": "Stop om ure te spandeer op herhalende take. Ons KI-oplossings hanteer kliënte se navrae, kwalifiseer leidrade, en outomatiseer werksvloeie—sodat jy kan fokus op besigheidsgroei."
+    },
+    "customApps": {
+      "title": "Pasgemaakte Toepassings & Gereedskap",
+      "tagline": "Los jou unieke besigheidsprobleme op",
+      "description": "Het jy iets spesifieks nodig? Ons bou eenvoudige, effektiewe toepassings aangepas vir jou werksvloei—bespreking stelsels, inventaris naspoor, kliënte-portale, en meer."
+    },
+    "googleBusiness": {
+      "title": "Google Besigheidsprofiel Opstel",
+      "tagline": "Word gevind deur plaaslike kliënte",
+      "description": "Verskyn wanneer mense in jou area soek vir wat jy bied. Ons optimaliseer jou Google Besigheidsprofiel sodat jy verskyn op Kaarte en Soek."
+    },
+    "digitalMarketing": {
+      "title": "Digitale Bemarking Beginpakkette",
+      "tagline": "Kry meer kliënte aanlyn",
+      "description": "Eenvoudige, effektiewe bemarking wat by jou begroting pas. Sosiale media opstel, Google Ads basisse, e-pos veldtogte—ons kry jou op die regte pad."
+    },
+    "consulting": {
+      "title": "Digitale Transformasie Konsultasie",
+      "tagline": "Navigeer die digitale wêreld met vertroue",
+      "description": "Nie seker waar om te begin nie? Ons sal jou besigheid evalueer, geleenthede identifiseer, en 'n realistiese padkaart skep vir digitale groei—geen jargon nie, net duidelike advies."
+    },
+    "pricing": {
+      "from": "Vanaf",
+      "delivery": "Aflewering",
+      "support": "Ondersteuning",
+      "included": "Ingesluit",
+      "getQuote": "Kry 'n Kwotasie",
+      "whatsappUs": "WhatsApp Ons"
+    },
+    "whyUs": {
+      "title": "Hoekom Saam Met Ons Werk?",
+      "subtitle": "Ons is nie soos daardie groot agentskappe met 6-maande tydlyne en korporatiewe jargon nie",
+      "fastDelivery": {
+        "title": "Vinnige Aflewering",
+        "description": "Meeste projekte gelewer in dae, nie maande nie. Jy sal vinnig resultate sien."
+      },
+      "clearComm": {
+        "title": "Duidelike Kommunikasie",
+        "description": "Geen tegnologie jargon nie. Ons verduidelik alles in eenvoudige taal sodat jy presies verstaan wat jy kry."
+      },
+      "results": {
+        "title": "Resultaat-Gefokus",
+        "description": "Ons bou dinge wat werklik jou besigheid help groei—meer kliënte, minder handmatige werk, beter sigbaarheid."
+      }
+    },
+    "ctaTitle": "Nie Seker Wat Jy Nodig Het Nie?",
+    "ctaDescription": "Bespreek 'n gratis konsultasie. Ons sal gesels oor jou besigheidsdoelwitte en die beste oplossings vir jou begroting aanbeveel.",
+    "ctaButton": "Kry Gratis Konsultasie"
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Regte Resultate vir Regte Besighede",
+      "subtitle": "Sien hoe ons SA klein besighede gehelp het om te groei met praktiese tegnologie-oplossings"
+    },
+    "filters": {
+      "all": "Alle Projekte",
+      "websites": "Webwerwe",
+      "automation": "KI & Outomatisering",
+      "apps": "Pasgemaakte Toepassings",
+      "marketing": "Bemarking"
+    },
+    "before": "Voor",
+    "after": "Na",
+    "results": "Resultate",
+    "testimonials": {
+      "title": "Wat Ons Kliënte Sê",
+      "subtitle": "Moenie net ons woord daarvoor neem nie—hier is wat regte besigheidseienaars te sê het"
+    },
+    "ctaTitle": "Gereed om Resultate Soos Hierdie te Sien?",
+    "ctaDescription": "Kom ons gesels oor jou besigheidsdoelwitte en skep 'n plan wat werklik werk.",
+    "ctaButton": "Kry Jou Gratis Kwotasie"
+  },
+  "about": {
+    "hero": {
+      "title": "Ons Help SA Besighede Floreer Aanlyn",
+      "subtitle": "Vinnige, bekostigbare tegnologie-oplossings sonder die korporatiewe nonsens"
+    },
+    "story": {
+      "title": "Hoekom Ons Bestaan",
+      "happyClients": "Gelukkige Kliënte"
+    },
+    "values": {
+      "title": "Waarvoor Ons Staan",
+      "subtitle": "Ons waardes dryf alles wat ons doen"
+    },
+    "strengths": {
+      "title": "Ons Sterkpunte",
+      "subtitle": "Wat ons anders maak van ander tegnologie-verskaffers"
+    },
+    "whySA": {
+      "title": "Hoekom SA Besighede Digitale Oplossings Nodig Het",
+      "subtitle": "Die realiteit van klein besigheid in Suid-Afrika vandag"
+    },
+    "approach": {
+      "title": "Ons Vinnige-Aflewering Benadering",
+      "subtitle": "Hoe ons vinnig resultate kry sonder om kwaliteit te kompromitteer"
+    },
+    "ctaTitle": "Kom Ons Laat Jou Besigheid Saam Groei",
+    "ctaDescription": "Gereed om jou besigheid te opgradeer in dae, nie maande nie? Kom ons gesels—geen druk nie, net eerlike advies.",
+    "ctaButton": "Kry Gratis Konsultasie"
+  },
+  "contact": {
+    "hero": {
+      "title": "Kom Ons Bou Iets Wonderliks Saam",
+      "subtitle": "Kry 'n gratis kwotasie en eerlike advies. Geen druk, geen jargon nie."
+    },
+    "methods": {
+      "whatsapp": {
+        "title": "WhatsApp Ons",
+        "description": "Vinnigste manier om ons te bereik"
+      },
+      "email": {
+        "title": "E-pos",
+        "description": "Ons reageer binne 24 uur"
+      },
+      "phone": {
+        "title": "Bel Ons",
+        "description": "Ma-Vr, 9vm-6nm SAST"
+      }
+    },
+    "form": {
+      "title": "Kry 'n Gratis Kwotasie",
+      "description": "Vul die vorm hieronder in en ons sal binne 24 uur terugkom met 'n duidelike voorstel.",
+      "name": "Jou Naam",
+      "email": "E-pos",
+      "phone": "Telefoon",
+      "business": "Besigheidsnaam",
+      "service": "Diens Waarin Geïnteresseerd",
+      "selectService": "Kies 'n diens",
+      "budget": "Benaderde Begroting",
+      "selectBudget": "Kies jou begrotingsreeks",
+      "message": "Vertel Ons Van Jou Projek",
+      "messagePlaceholder": "Waarmee het jy hulp nodig? Wat is jou doelwitte?",
+      "send": "Stuur Boodskap",
+      "thankYou": "Dankie!",
+      "successMessage": "Ons het jou boodskap ontvang en sal binne 24 uur terugkom."
+    },
+    "info": {
+      "title": "Kontak Inligting",
+      "location": "Ligging",
+      "locationDetail": "Kaapstad, Suid-Afrika",
+      "servingAll": "Dien die hele SA op afstand",
+      "hours": "Besigheidsure",
+      "weekdays": "Maandag - Vrydag: 9vm - 6nm",
+      "saturday": "Saterdag: 10vm - 2nm",
+      "whatsapp247": "WhatsApp beskikbaar 24/7"
+    },
+    "whatsappCta": {
+      "title": "Verkies WhatsApp?",
+      "description": "Kry kitskrag antwoorde op jou vrae. Gesels nou met ons!",
+      "button": "Begin WhatsApp Gesels"
+    },
+    "faqs": {
+      "title": "Vinnige Antwoorde"
+    }
+  },
+  "footer": {
+    "description": "Vinnige, bekostigbare tegnologie-oplossings vir Suid-Afrikaanse besighede. Ons help KMO's floreer in die digitale era.",
+    "services": "Dienste",
+    "company": "Maatskappy",
+    "contactTitle": "Kontak",
+    "allRights": "Alle regte voorbehou",
+    "privacy": "Privaatheidbeleid",
+    "terms": "Diensbepalings"
+  }
+}
