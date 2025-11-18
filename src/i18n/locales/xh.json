@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "services": "Iinkonzo",
+    "portfolio": "Imisebenzi",
+    "about": "Ngathi",
+    "contact": "Qhagamshelana",
+    "getStarted": "Qalisa Ngoku"
+  },
+  "home": {
+    "hero": {
+      "title": "Faka Ishishini Lakho Kwi-intanethi.",
+      "subtitle": "Ngokukhawuleza. Ngokungabizi. Kulula.",
+      "description": "Sinceda amashishini amancane eMzantsi Afrika ukuba aphumelele ngeewebhusayithi, i-AI automation, kunye nezixhobo zedijithali—ngaphandle kwexabiso elikhulu learhente enkulu.",
+      "freeQuote": "Fumana Iqaphelo Lasimahla",
+      "seePossible": "Bona Okunokwenzeka",
+      "deliveredFast": "Kuhanjiswa Ngeentsuku, Hayi Iinyanga",
+      "noCosts": "Akukho Ziindleko Ezifihlakeleyo",
+      "multilingual": "Inkxaso Yeelwimi Ezininzi"
+    },
+    "painPoints": {
+      "title": "Kuvakala Kuqhelekile?",
+      "subtitle": "Ezi ziingxaki esizisombululayo yonke imihla kumashishini aseMzantsi Afrika afana nowakho",
+      "noWebsite": {
+        "title": "Akukho Webhusayithi Okanye Indala",
+        "description": "Abakhuphisana nawe baseku-intanethi. Wena akunjalo. Okanye okubi—iwebhusayithi yakho ijongeka ngathi ivela kwi-2010.",
+        "solution": "Fumana iwebhusayithi yale mihla, esebenza kwiifowuni ngeentsuku."
+      },
+      "missingAutomation": {
+        "title": "Ulahlekelwa Kwi-Automation",
+        "description": "Uchitha iiyure kwimisebenzi ephindaphindwayo njengokuphendula imibuzo yabathengi okanye ukucwangcisa.",
+        "solution": "Yenza izenzekelayo nge-AI chatbots kunye neendlela zokusebenza ezihlakaniphile."
+      },
+      "cantReach": {
+        "title": "Awukwazi Ukufikelela Yonke Imarike Yakho",
+        "description": "UMzantsi Afrika uneelwimi ezininzi, kodwa iwebhusayithi yakho ithetha isiNgesi kuphela.",
+        "solution": "Qhagamshelana nabathengi ngesiZulu, isiXhosa, isiBhulu, nokunye."
+      },
+      "tooExpensive": {
+        "title": "Itekhnoloji Ibiza Kakhulu",
+        "description": "Unikwe iqaphelo le-R50,000+ lokwakha iwebhusayithi esisiseko. Olo hayi lokuzenzekelayo kwishishini elincinci.",
+        "solution": "Izisombululo ezikhawulezayo, ezingabizi ezilungiselelwe uhlahlo-lwabiwo mali lwakho."
+      }
+    },
+    "services": {
+      "title": "Sinokukwenzela Ntoni",
+      "subtitle": "Izisombululo zetekhnoloji ezisebenzayo ezikhulisa ishishini lakho",
+      "seeAll": "Bona Zonke Iinkonzo"
+    },
+    "stats": {
+      "title": "Kutheni Amashishini Esithemba",
+      "subtitle": "Iziphumo zokwenyaniso, ngokukhawuleza",
+      "deliveryTime": "Ixesha Lokuhanjiswa Eliphakathi",
+      "projectsCompleted": "Iiprojekthi Ezigqityiweyo",
+      "satisfaction": "Ukoneliseka Kwabathengi",
+      "supportAvailable": "Inkxaso Iyafumaneka"
+    },
+    "cta": {
+      "title": "Ukulungele Ukuphucula Ishishini Lakho?",
+      "description": "Fumana ingcebiso neqaphelo lasimahla. Akukho xinizelelo, ingcebiso enyanisekileyo kuphela ngokusebenzela ishishini lakho.",
+      "getStarted": "Qalisa Namhlanje",
+      "seeWork": "Bona Umsebenzi Wethu"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Iinkonzo Ezikhulisa Ishishini Lakho",
+      "subtitle": "Ngokukhawuleza, ngokungabizi, kwaye kunempela kuluncedo. Khetha into oyifunayo—okanye udibanise ukuze ufumane impembelelo enkulu."
+    },
+    "website": {
+      "title": "Ukwakhiwa Nokuphuculwa Kwewebhusayithi",
+      "tagline": "Ivenkile yakho yedijithali esebenza imini nobusuku",
+      "description": "Iwebhusayithi yobuchwephesha ayiseyonto yokuzidlalisa—ibalulekile. Sakha iiwebhusayithi ezikhawulezayo, zale mihla, ezisebenza kwiifowuni ezizisa abathengi ngokoqobo."
+    },
+    "aiAutomation": {
+      "title": "I-AI Automation Kunye Nee-chatbot",
+      "tagline": "Sebenza ngokukrelekrele, hayi ngokunkunkuma",
+      "description": "Yeka ukuchitha iiyure kwimisebenzi ephindaphindwayo. Izisombululo zethu ze-AI zijongana nemibuzo yabathengi, zihlole abakhokeli, kwaye zenze umsebenzi uzenzekele—ukuze ukwazi ukugxila ekukhuliseni ishishini."
+    },
+    "customApps": {
+      "title": "Iinkqubo Zokusebenza Ezakhiwe Ngokwezifiso Kunye Nezixhobo",
+      "tagline": "Sombulula iingxaki zakho zeshishini ezikhethekileyo",
+      "description": "Ufuna into ethile ekhethekileyo? Sakha iinkqubo zokusebenza ezilula, ezisebenza kakuhle ezilungiselelwe indlela yakho yokusebenza—iinkqubo zokubhuqa, abalondolozi bezinto, iiportali zabathengi, nokunye."
+    },
+    "googleBusiness": {
+      "title": "Ukuseta Iprofayile Yeshishini Le-Google",
+      "tagline": "Fumaneka ngabathengi basekuhlaleni",
+      "description": "Vela xa abantu bommandla wakho befuna into oyinikezayo. Siphucula iprofayile yakho yeshishini le-Google ukuze uvele kwiMephu nakuPhendlo."
+    },
+    "digitalMarketing": {
+      "title": "Iipakethi Zokuqala Zokuthengisa Ngedijithali",
+      "tagline": "Fumana abathengi abaninzi kwi-intanethi",
+      "description": "Ukuthengisa okulula, okusebenza kakuhle okuhambelana nohlahlo-lwabiwo mali lwakho. Ukuseta iinkundla zentlalo, iziseko ze-Google Ads, amaphulo e-imeyile—sikuqalisa ngendlela efanelekileyo."
+    },
+    "consulting": {
+      "title": "Ingcebiso Yotshintsho Lwedijithali",
+      "tagline": "Hambela umhlaba wedijithali ngokuzithemba",
+      "description": "Awuqiniseki ukuba uza kuqala phi? Siza kuhlola ishishini lakho, sibone amathuba, kwaye senze irodi yempumelelo yokukhula kwedijithali—akukho jargon, ingcebiso ecacileyo kuphela."
+    },
+    "pricing": {
+      "from": "Ukusuka ku",
+      "delivery": "Ukuhanjiswa",
+      "support": "Inkxaso",
+      "included": "Kubandakanyiwe",
+      "getQuote": "Fumana Iqaphelo",
+      "whatsappUs": "I-WhatsApp Kuthi"
+    },
+    "whyUs": {
+      "title": "Kutheni Usebenza Nathi?",
+      "subtitle": "Asifani neeoarhente ezikhulu ezineemvume zeenyanga ezi-6 kunye nejargon yenkampani",
+      "fastDelivery": {
+        "title": "Ukuhanjiswa Ngokukhawuleza",
+        "description": "Uninzi lweeprojekthi zihanjiswa ngeentsuku, hayi iinyanga. Uza kubona iziphumo ngokukhawuleza."
+      },
+      "clearComm": {
+        "title": "Unxibelelwano Olucacileyo",
+        "description": "Akukho jargon yetekhnoloji. Sicacisa yonke into ngolwimi olulula ukuze uqonde ncakasana ukuba ufumana ntoni."
+      },
+      "results": {
+        "title": "Kugxilwe Kwiziphumo",
+        "description": "Sakha izinto ezinceda ishishini lakho likhule ngokoqobo—abathengi abaningi, umsebenzi omncinci ngezandla, ukubonakala okungcono."
+      }
+    },
+    "ctaTitle": "Awuqiniseki Ngokuba Ufuna Ntoni?",
+    "ctaDescription": "Bhuqa ingcebiso yasimahla. Siza kuxoxa ngeenjongo zakho zeshishini kwaye sicebise izisombululo ezingcono zohlahlo-lwabiwo mali lwakho.",
+    "ctaButton": "Fumana Ingcebiso Yasimahla"
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Iziphumo Zokwenyaniso Zamashishini Okwenyaniso",
+      "subtitle": "Bona indlela esincede ngayo amashishini amancane aseMzantsi Afrika akhule ngezisombululo zetekhnoloji ezisebenzayo"
+    },
+    "filters": {
+      "all": "Zonke Iiprojekthi",
+      "websites": "Iiwebhusayithi",
+      "automation": "I-AI Nokuzenzekela",
+      "apps": "Iinkqubo Zokusebenza Ezakhiwe Ngokwezifiso",
+      "marketing": "Ukuthengisa"
+    },
+    "before": "Ngaphambi",
+    "after": "Emva",
+    "results": "Iziphumo",
+    "testimonials": {
+      "title": "Into Abathengi Bethu Abayithethayo",
+      "subtitle": "Musa ukuthatha ilizwi lethu kuphela—nanku into abanini bamashishini bokwenyaniso abayithethayo"
+    },
+    "ctaTitle": "Ukulungele Ukubona Iziphumo Ezinje?",
+    "ctaDescription": "Masixoxe ngeenjongo zakho zeshishini kwaye senze isicwangciso esisebenza ngokwenene.",
+    "ctaButton": "Fumana Iqaphelo Lakho Lasimahla"
+  },
+  "about": {
+    "hero": {
+      "title": "Sinceda Amashishini aseMzantsi Afrika Aphumelele Kwi-intanethi",
+      "subtitle": "Izisombululo zetekhnoloji ezikhawulezayo, ezingabizi ngaphandle kwe-nonsense yenkampani"
+    },
+    "story": {
+      "title": "Kutheni Sikho",
+      "happyClients": "Abathengi Abonwabileyo"
+    },
+    "values": {
+      "title": "Into Esimele Kuyo",
+      "subtitle": "Amaxabiso ethu aqhuba konke esikwenzayo"
+    },
+    "strengths": {
+      "title": "Amandla Ethu",
+      "subtitle": "Yintoni esenza sohluke kubanye ababoneleli betekhnoloji"
+    },
+    "whySA": {
+      "title": "Kutheni Amashishini aseMzantsi Afrika Efuna Izisombululo Zedijithali",
+      "subtitle": "Inyani yeshishini elincinci eMzantsi Afrika namhlanje"
+    },
+    "approach": {
+      "title": "Indlela Yethu Yokuhanjiswa Ngokukhawuleza",
+      "subtitle": "Indlela esifumana ngayo iziphumo ngokukhawuleza ngaphandle kokuphazamisa umgangatho"
+    },
+    "ctaTitle": "Masikhulise Ishishini Lakho Kunye",
+    "ctaDescription": "Ukulungele ukuphucula ishishini lakho ngeentsuku, hayi iinyanga? Masixoxe—akukho xinizelelo, ingcebiso enyanisekileyo kuphela.",
+    "ctaButton": "Fumana Ingcebiso Yasimahla"
+  },
+  "contact": {
+    "hero": {
+      "title": "Masakheni Into Entle Kunye",
+      "subtitle": "Fumana iqaphelo lasimahla nengcebiso enyanisekileyo. Akukho xinizelelo, akukho jargon."
+    },
+    "methods": {
+      "whatsapp": {
+        "title": "I-WhatsApp Kuthi",
+        "description": "Eyona ndlela ikhawulezayo yokusifikelela"
+      },
+      "email": {
+        "title": "I-imeyile",
+        "description": "Siphendula ngaphakathi kwiiyure ezingama-24"
+      },
+      "phone": {
+        "title": "Sitsalele",
+        "description": "NgoMvulo-NgoLwesihlanu, 9am-6pm SAST"
+      }
+    },
+    "form": {
+      "title": "Fumana Iqaphelo Lasimahla",
+      "description": "Gcwalisa ifomu elingezantsi kwaye siza kubuyela kuwe ngaphakathi kweeyure ezingama-24 nesiphakimiso esicacileyo.",
+      "name": "Igama Lakho",
+      "email": "I-imeyile",
+      "phone": "Ifowuni",
+      "business": "Igama Leshishini",
+      "service": "Inkonzo Onomdla Kuyo",
+      "selectService": "Khetha inkonzo",
+      "budget": "Uhlahlo-lwabiwo Mali Oluqikelelweyo",
+      "selectBudget": "Khetha uluhlu lohlahlo-lwabiwo mali lwakho",
+      "message": "Sixelele Ngeprojekthi Yakho",
+      "messagePlaceholder": "Ufuna uncedo ngantoni? Zeziphi iinjongo zakho?",
+      "send": "Thumela Umyalezo",
+      "thankYou": "Enkosi!",
+      "successMessage": "Sifumene umyalezo wakho kwaye siza kubuyela kuwe ngaphakathi kweeyure ezingama-24."
+    },
+    "info": {
+      "title": "Ulwazi Loqhagamshelwano",
+      "location": "Indawo",
+      "locationDetail": "IKapa, Mzantsi Afrika",
+      "servingAll": "Sikhonza wonke uMzantsi Afrika kude",
+      "hours": "Iiyure Zeshishini",
+      "weekdays": "NgoMvulo - NgoLwesihlanu: 9am - 6pm",
+      "saturday": "NgoMgqibelo: 10am - 2pm",
+      "whatsapp247": "I-WhatsApp iyafumaneka 24/7"
+    },
+    "whatsappCta": {
+      "title": "Ukhetha I-WhatsApp?",
+      "description": "Fumana iimpendulo ezikhawulezayo kwimibuzo yakho. Thetha nathi ngoku!",
+      "button": "Qalisa Incoko Ye-WhatsApp"
+    },
+    "faqs": {
+      "title": "Iimpendulo Ezikhawulezayo"
+    }
+  },
+  "footer": {
+    "description": "Izisombululo zetekhnoloji ezikhawulezayo, ezingabizi zamashishini aseMzantsi Afrika. Sinceda ii-SME ziphumelele kwixesha ledijithali.",
+    "services": "Iinkonzo",
+    "company": "Inkampani",
+    "contactTitle": "Qhagamshelana",
+    "allRights": "Onke amalungelo agodliwe",
+    "privacy": "Umgaqo-nkqubo Wobumfihlo",
+    "terms": "Imiqathango Yenkonzo"
+  }
+}

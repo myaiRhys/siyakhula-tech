@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "services": "Izinsizakalo",
+    "portfolio": "Imisebenzi",
+    "about": "Ngathi",
+    "contact": "Xhumana",
+    "getStarted": "Qala Manje"
+  },
+  "home": {
+    "hero": {
+      "title": "Faka Ibhizinisi Lakho Ku-inthanethi.",
+      "subtitle": "Ngokushesha. Ngokungabizi. Kulula.",
+      "description": "Sisiza amabhizinisi amancane aseNingizimu Afrika ukuthi aphumelele ngamawebhusayithi, ukuzenzakalela nge-AI, namathuluzi edijithali—ngaphandle kwenani elikhulu lamahhovisi amakhulu.",
+      "freeQuote": "Thola Isilinganiso Samahhala",
+      "seePossible": "Bona Okungenzeka",
+      "deliveredFast": "Kulethwa Ngezinsuku, Hhayi Izinyanga",
+      "noCosts": "Azikho Izindleko Ezifihlekile",
+      "multilingual": "Ukwesekwa Kwezilimi Eziningi"
+    },
+    "painPoints": {
+      "title": "Kuzwakala Kujwayelekile?",
+      "subtitle": "Lezi yizinkinga esizixazulula nsuku zonke kumabhizinisi aseNingizimu Afrika anjengowakho",
+      "noWebsite": {
+        "title": "Awunayo Iwebhusayithi Noma Indala",
+        "description": "Abancintisana nawe baseku-inthanethi. Wena akunjalo. Noma okubi—iwebhusayithi yakho ibukeka sengathi ivela ngo-2010.",
+        "solution": "Thola iwebhusayithi yesimanje, esebenza kumaselula ngezinsuku."
+      },
+      "missingAutomation": {
+        "title": "Ulahlekelwa Ukuzenzakalela",
+        "description": "Uchitha amahora emisebenzini ephindaphindiwe njengokuphendula imibuzo yamakhasimende noma ukuhlela.",
+        "solution": "Zenzakalele ngama-chatbot e-AI nezindlela zokusebenza ezihlakaniphile."
+      },
+      "cantReach": {
+        "title": "Awukwazi Ukufinyelela Yonke Imakethe Yakho",
+        "description": "INingizimu Afrika inezilimi eziningi, kodwa iwebhusayithi yakho ikhuluma isiNgisi kuphela.",
+        "solution": "Xhumana namakhasimende ngesiZulu, isiXhosa, isi-Afrikaans, nokunye."
+      },
+      "tooExpensive": {
+        "title": "Ubuchwepheshe Bubiza Kakhulu",
+        "description": "Unikwe isilinganiso sika-R50,000+ ukwakha iwebhusayithi eyisisekelo. Lokho akukho emandleni ebhizinisi elincane.",
+        "solution": "Izixazululo ezisheshayo, ezingabizi ezilungiselelwe isabelomali sakho."
+      }
+    },
+    "services": {
+      "title": "Singakwenzelani",
+      "subtitle": "Izixazululo zobuchwepheshe ezisebenzayo ezikhulisa ibhizinisi lakho",
+      "seeAll": "Bona Zonke Izinsizakalo"
+    },
+    "stats": {
+      "title": "Kungani Amabhizinisi Esithemba",
+      "subtitle": "Imiphumela yangempela, ngokushesha",
+      "deliveryTime": "Isikhathi Sokunikezwa Okumaphakathi",
+      "projectsCompleted": "Amaphrojekthi Aphelele",
+      "satisfaction": "Ukwaneliseka Kwamakhasimende",
+      "supportAvailable": "Ukwesekwa Kuyatholakala"
+    },
+    "cta": {
+      "title": "Ukulungele Ukwenza Ngcono Ibhizinisi Lakho?",
+      "description": "Thola ukwelulekwa nesilinganiso samahhala. Awukho umfutho, iseluleko esiqotho kuphela ngalokho okuzosebenzela ibhizinisi lakho.",
+      "getStarted": "Qala Namuhla",
+      "seeWork": "Bona Umsebenzi Wethu"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Izinsizakalo Ezikhulisa Ibhizinisi Lakho",
+      "subtitle": "Ngokushesha, ngokungabizi, futhi okunempela kuwusizo. Khetha lokho okudingayo—noma uhlanganise ukuze uthole umphumela omkhulu."
+    },
+    "website": {
+      "title": "Ukwakha Nokuthuthukisa Iwebhusayithi",
+      "tagline": "Isitolo sakho sedijithali esisebenza imini nobusuku",
+      "description": "Iwebhusayithi yobuchwephesha ayiseyona into yokuzikhukhumeza—ibalulekile. Sakha amawebhusayithi asheshayo, asesimanjemanje, asebenza kumaselula aletha amakhasimende ngempela."
+    },
+    "aiAutomation": {
+      "title": "Ukuzenzakalela Nge-AI Nama-chatbot",
+      "tagline": "Sebenza ngokuhlakanipha, hhayi kanzima",
+      "description": "Yeka ukuchitha amahora emisebenzini ephindaphindiwe. Izixazululo zethu ze-AI ziphatha imibuzo yamakhasimende, zihlole abaholela, futhi zenze umsebenzi uzenzakalele—ukuze ukwazi ukugxila ekukhuliseni ibhizinisi."
+    },
+    "customApps": {
+      "title": "Izinhlelo Zokusebenza Ezakhiwe Ngokwezifiso Namathuluzi",
+      "tagline": "Xazulula izinkinga zakho zebhizinisi ezihlukile",
+      "description": "Udinga okuthile okuqondile? Sakha izinhlelo zokusebenza ezilula, ezisebenza kahle ezilungiselelwe indlela yakho yokusebenza—izinhlelo zokubhukha, izilondolozi zempahla, amaphodluli wamakhasimende, nokunye."
+    },
+    "googleBusiness": {
+      "title": "Ukumisa Iphrofayela Yebhizinisi Le-Google",
+      "tagline": "Tholakala amakhasimende asendaweni",
+      "description": "Vela lapho abantu bendawo yakho befuna lokho okunike khona. Senza ngcono iphrofayela yakho yebhizinisi le-Google ukuze uvele ku-Maps nase-Search."
+    },
+    "digitalMarketing": {
+      "title": "Amaphakethe Okuqala Okumaketha Ngedijithali",
+      "tagline": "Thola amakhasimende amaningi ku-inthanethi",
+      "description": "Ukumaketha okulula, okusebenza kahle okulungele isabelomali sakho. Ukumisa izinkundla zokuxhumana, izisekelo ze-Google Ads, imikhankaso ye-imeyili—sikuqalisa ngendlela efanele."
+    },
+    "consulting": {
+      "title": "Ukwelulekwa Kokuguqulwa Kwedijithali",
+      "tagline": "Zulazula umhlaba wedijithali ngokuzethemba",
+      "description": "Awazi lapho uzoqala khona? Sizohlola ibhizinisi lakho, sibone amathuba, futhi sidale umhlahlandlela ongokoqobo wokukhula kwedijithali—kungekho igama lobuchwepheshe, iseluleko esicacile kuphela."
+    },
+    "pricing": {
+      "from": "Kusukela ku",
+      "delivery": "Ukunikezwa",
+      "support": "Ukwesekwa",
+      "included": "Kufakiwe",
+      "getQuote": "Thola Isilinganiso",
+      "whatsappUs": "I-WhatsApp Kithi"
+    },
+    "whyUs": {
+      "title": "Kungani Usebenza Nathi?",
+      "subtitle": "Asibi njengalawa mahhovisi amakhulu anemikhawulo yezinyanga ezi-6 negama lobuchwepheshe",
+      "fastDelivery": {
+        "title": "Ukunikezwa Ngokushesha",
+        "description": "Amaphrojekthi amaningi anikezwa ngezinsuku, hhayi izinyanga. Uzobona imiphumela ngokushesha."
+      },
+      "clearComm": {
+        "title": "Ukuxhumana Okucacile",
+        "description": "Akukho igama lobuchwepheshe. Sichaza konke ngolimi olulula ukuze uqonde kahle ukuthi utholani."
+      },
+      "results": {
+        "title": "Kugxilwe Emiphumeleni",
+        "description": "Sakha izinto ezisiza ibhizinisi lakho likhule ngempela—amakhasimende amaningi, umsebenzi omancane wezandla, ukubonakala okungcono."
+      }
+    },
+    "ctaTitle": "Awuqiniseki Ukuthi Udingani?",
+    "ctaDescription": "Bhukha ukwelulekwa kwamahhala. Sizoxoxa ngezinjongo zakho zebhizinisi futhi sinconyele izixazululo ezingcono zesabelomali sakho.",
+    "ctaButton": "Thola Ukwelulekwa Kwamahhala"
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Imiphumela Yangempela Yamabhizinisi Angempela",
+      "subtitle": "Bona ukuthi sisize kanjani amabhizinisi amancane aseNingizimu Afrika akhule ngezixazululo zobuchwepheshe ezisebenzayo"
+    },
+    "filters": {
+      "all": "Onke Amaphrojekthi",
+      "websites": "Amawebhusayithi",
+      "automation": "I-AI Nokuzenzakalela",
+      "apps": "Izinhlelo Zokusebenza Ezakhiwe Ngokwezifiso",
+      "marketing": "Ukumaketha"
+    },
+    "before": "Ngaphambi",
+    "after": "Ngemuva",
+    "results": "Imiphumela",
+    "testimonials": {
+      "title": "Lokho Amakhasimende Ethu Akushoyo",
+      "subtitle": "Ungathathi izwi lethu kuphela—nansi into abanikazi bebhizinisi bangempela abayishoyo"
+    },
+    "ctaTitle": "Ukulungele Ukubona Imiphumela Enjengale?",
+    "ctaDescription": "Asixoxe ngezinjongo zakho zebhizinisi futhi sidale uhlelo olusebenza ngempela.",
+    "ctaButton": "Thola Isilinganiso Sakho Samahhala"
+  },
+  "about": {
+    "hero": {
+      "title": "Sisiza Amabhizinisi aseNingizimu Afrika Aphumelele Ku-inthanethi",
+      "subtitle": "Izixazululo zobuchwepheshe ezisheshayo, ezingabizi ngaphandle kokungenzi okungeyona imfanelo"
+    },
+    "story": {
+      "title": "Kungani Sikhona",
+      "happyClients": "Amakhasimende Ajabulayo"
+    },
+    "values": {
+      "title": "Lokho Esikumelayo",
+      "subtitle": "Amanani ethu aqhuba konke esikwenzayo"
+    },
+    "strengths": {
+      "title": "Amandla Ethu",
+      "subtitle": "Yini esenza sehluke kubanye abanikeli bobuchwepheshe"
+    },
+    "whySA": {
+      "title": "Kungani Amabhizinisi aseNingizimu Afrika Edinga Izixazululo Zedijithali",
+      "subtitle": "Iqiniso lebhizinisi elincane eNingizimu Afrika namuhla"
+    },
+    "approach": {
+      "title": "Indlela Yethu Yokunikezwa Ngokushesha",
+      "subtitle": "Ukuthi sithola kanjani imiphumela ngokushesha ngaphandle kokuphazamisa ikhwalithi"
+    },
+    "ctaTitle": "Asikhulise Ibhizinisi Lakho Ndawonye",
+    "ctaDescription": "Ukulungele ukwenza ngcono ibhizinisi lakho ngezinsuku, hhayi izinyanga? Asixoxe—akukho mfutho, iseluleko esiqotho kuphela.",
+    "ctaButton": "Thola Ukwelulekwa Kwamahhala"
+  },
+  "contact": {
+    "hero": {
+      "title": "Asakheni Okuthile Okuhle Ndawonye",
+      "subtitle": "Thola isilinganiso samahhala neseluleko esiqotho. Akukho mfutho, akukho igama lobuchwepheshe."
+    },
+    "methods": {
+      "whatsapp": {
+        "title": "I-WhatsApp Kithi",
+        "description": "Indlela esheshayo kakhulu yokusifinyelela"
+      },
+      "email": {
+        "title": "I-imeyili",
+        "description": "Siphendula ngaphakathi kwamahora angama-24"
+      },
+      "phone": {
+        "title": "Sishayele",
+        "description": "NgoMsombuluko-NgoLwesihlanu, 9am-6pm SAST"
+      }
+    },
+    "form": {
+      "title": "Thola Isilinganiso Samahhala",
+      "description": "Gcwalisa ifomu elingezansi futhi sizobuyela kuwe ngaphakathi kwamahora angama-24 ngesiphakamiso esicacile.",
+      "name": "Igama Lakho",
+      "email": "I-imeyili",
+      "phone": "Ifoni",
+      "business": "Igama Lebhizinisi",
+      "service": "Insizakalo Onemisangano Ngayo",
+      "selectService": "Khetha insizakalo",
+      "budget": "Isabelomali Esingaba Yikho",
+      "selectBudget": "Khetha uhla lwesabelomali sakho",
+      "message": "Sitshele Ngephrojekthi Yakho",
+      "messagePlaceholder": "Udinga usizo ngani? Yiziphi izinhloso zakho?",
+      "send": "Thumela Umlayezo",
+      "thankYou": "Siyabonga!",
+      "successMessage": "Sithole umlayezo wakho futhi sizobuyela kuwe ngaphakathi kwamahora angama-24."
+    },
+    "info": {
+      "title": "Ulwazi Lokuxhumana",
+      "location": "Indawo",
+      "locationDetail": "IKapa, Ningizimu Afrika",
+      "servingAll": "Sikhonza yonke iNingizimu Afrika kude",
+      "hours": "Amahora Ebhizinisi",
+      "weekdays": "NgoMsombuluko - NgoLwesihlanu: 9am - 6pm",
+      "saturday": "NgoMgqibelo: 10am - 2pm",
+      "whatsapp247": "I-WhatsApp iyatholakala 24/7"
+    },
+    "whatsappCta": {
+      "title": "Ukhetha I-WhatsApp?",
+      "description": "Thola izimpendulo ezisheshayo emibuzo yakho. Xoxa nathi manje!",
+      "button": "Qala Ukuxoxa Nge-WhatsApp"
+    },
+    "faqs": {
+      "title": "Izimpendulo Ezisheshayo"
+    }
+  },
+  "footer": {
+    "description": "Izixazululo zobuchwepheshe ezisheshayo, ezingabizi zamabhizinisi aseNingizimu Afrika. Sisiza ama-SME aphumelele enkathini yedijithali.",
+    "services": "Izinsizakalo",
+    "company": "Inkampani",
+    "contactTitle": "Xhumana",
+    "allRights": "Onke amalungelo agodliwe",
+    "privacy": "Inqubomgomo Yobumfihlo",
+    "terms": "Imigomo Yensizakalo"
+  }
+}

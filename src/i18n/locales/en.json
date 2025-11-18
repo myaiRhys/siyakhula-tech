@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "home": {
+    "hero": {
+      "title": "Get Your Business Online.",
+      "subtitle": "Fast. Affordable. Simple.",
+      "description": "We help South African small businesses thrive with websites, AI automation, and digital tools—without the big agency price tag.",
+      "freeQuote": "Get a Free Quote",
+      "seePossible": "See What's Possible",
+      "deliveredFast": "Delivered in Days, Not Months",
+      "noCosts": "No Hidden Costs",
+      "multilingual": "Multilingual Support"
+    },
+    "painPoints": {
+      "title": "Sound Familiar?",
+      "subtitle": "These are the problems we solve every day for SA businesses like yours",
+      "noWebsite": {
+        "title": "No Website or Outdated Site",
+        "description": "Your competitors are online. You're not. Or worse—your site looks like it's from 2010.",
+        "solution": "Get a modern, mobile-friendly website in days."
+      },
+      "missingAutomation": {
+        "title": "Missing Out on Automation",
+        "description": "Spending hours on repetitive tasks like answering customer questions or scheduling.",
+        "solution": "Automate with AI chatbots and smart workflows."
+      },
+      "cantReach": {
+        "title": "Can't Reach Your Full Market",
+        "description": "South Africa is multilingual, but your site only speaks English.",
+        "solution": "Connect with customers in isiZulu, isiXhosa, Afrikaans, and more."
+      },
+      "tooExpensive": {
+        "title": "Tech is Too Expensive",
+        "description": "You've been quoted R50,000+ for basic web development. That's not realistic for small business.",
+        "solution": "Fast, affordable solutions tailored to your budget."
+      }
+    },
+    "services": {
+      "title": "What We Can Do For You",
+      "subtitle": "Practical tech solutions that grow your business",
+      "seeAll": "See All Services"
+    },
+    "stats": {
+      "title": "Why Businesses Trust Us",
+      "subtitle": "Real results, real fast",
+      "deliveryTime": "Average Delivery Time",
+      "projectsCompleted": "Projects Completed",
+      "satisfaction": "Client Satisfaction",
+      "supportAvailable": "Support Available"
+    },
+    "cta": {
+      "title": "Ready to Upgrade Your Business?",
+      "description": "Get a free consultation and quote. No pressure, just honest advice on what will work for your business.",
+      "getStarted": "Get Started Today",
+      "seeWork": "See Our Work"
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Services That Grow Your Business",
+      "subtitle": "Fast, affordable, and actually useful. Pick what you need—or bundle for maximum impact."
+    },
+    "website": {
+      "title": "Website Creation & Upgrades",
+      "tagline": "Your digital storefront that works 24/7",
+      "description": "A professional website isn't a luxury anymore—it's essential. We build fast, modern, mobile-friendly sites that actually bring in customers."
+    },
+    "aiAutomation": {
+      "title": "AI Automation & Chatbots",
+      "tagline": "Work smarter, not harder",
+      "description": "Stop spending hours on repetitive tasks. Our AI solutions handle customer queries, qualify leads, and automate workflows—so you can focus on growing your business."
+    },
+    "customApps": {
+      "title": "Custom Apps & Tools",
+      "tagline": "Solve your unique business problems",
+      "description": "Need something specific? We build simple, effective apps tailored to your workflow—booking systems, inventory trackers, customer portals, and more."
+    },
+    "googleBusiness": {
+      "title": "Google Business Profile Setup",
+      "tagline": "Get found by local customers",
+      "description": "Show up when people in your area search for what you offer. We optimize your Google Business Profile so you appear on Maps and Search."
+    },
+    "digitalMarketing": {
+      "title": "Digital Marketing Starter Packages",
+      "tagline": "Get more customers online",
+      "description": "Simple, effective marketing that fits your budget. Social media setup, Google Ads basics, email campaigns—we get you started the right way."
+    },
+    "consulting": {
+      "title": "Digital Transformation Consulting",
+      "tagline": "Navigate the digital world with confidence",
+      "description": "Not sure where to start? We'll assess your business, identify opportunities, and create a realistic roadmap for digital growth—no jargon, just clear advice."
+    },
+    "pricing": {
+      "from": "From",
+      "delivery": "Delivery",
+      "support": "Support",
+      "included": "Included",
+      "getQuote": "Get a Quote",
+      "whatsappUs": "WhatsApp Us"
+    },
+    "whyUs": {
+      "title": "Why Work With Us?",
+      "subtitle": "We're not like those big agencies with 6-month timelines and corporate jargon",
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "description": "Most projects delivered in days, not months. You'll see results quickly."
+      },
+      "clearComm": {
+        "title": "Clear Communication",
+        "description": "No tech jargon. We explain everything in plain language so you understand exactly what you're getting."
+      },
+      "results": {
+        "title": "Results-Focused",
+        "description": "We build things that actually help your business grow—more customers, less manual work, better visibility."
+      }
+    },
+    "ctaTitle": "Not Sure What You Need?",
+    "ctaDescription": "Book a free consultation. We'll chat about your business goals and recommend the best solutions for your budget.",
+    "ctaButton": "Get Free Consultation"
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Real Results for Real Businesses",
+      "subtitle": "See how we've helped SA small businesses grow with practical tech solutions"
+    },
+    "filters": {
+      "all": "All Projects",
+      "websites": "Websites",
+      "automation": "AI & Automation",
+      "apps": "Custom Apps",
+      "marketing": "Marketing"
+    },
+    "before": "Before",
+    "after": "After",
+    "results": "Results",
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Don't just take our word for it—here's what real business owners have to say"
+    },
+    "ctaTitle": "Ready to See Results Like These?",
+    "ctaDescription": "Let's chat about your business goals and create a plan that actually works.",
+    "ctaButton": "Get Your Free Quote"
+  },
+  "about": {
+    "hero": {
+      "title": "We Help SA Businesses Thrive Online",
+      "subtitle": "Fast, affordable tech solutions without the corporate nonsense"
+    },
+    "story": {
+      "title": "Why We Exist",
+      "happyClients": "Happy Clients"
+    },
+    "values": {
+      "title": "What We Stand For",
+      "subtitle": "Our values drive everything we do"
+    },
+    "strengths": {
+      "title": "Our Strengths",
+      "subtitle": "What makes us different from other tech providers"
+    },
+    "whySA": {
+      "title": "Why SA Businesses Need Digital Solutions",
+      "subtitle": "The reality of small business in South Africa today"
+    },
+    "approach": {
+      "title": "Our Quick-Delivery Approach",
+      "subtitle": "How we get results fast without compromising quality"
+    },
+    "ctaTitle": "Let's Grow Your Business Together",
+    "ctaDescription": "Ready to upgrade your business in days, not months? Let's chat—no pressure, just honest advice.",
+    "ctaButton": "Get Free Consultation"
+  },
+  "contact": {
+    "hero": {
+      "title": "Let's Build Something Great Together",
+      "subtitle": "Get a free quote and honest advice. No pressure, no jargon."
+    },
+    "methods": {
+      "whatsapp": {
+        "title": "WhatsApp Us",
+        "description": "Fastest way to reach us"
+      },
+      "email": {
+        "title": "Email",
+        "description": "We respond within 24 hours"
+      },
+      "phone": {
+        "title": "Call Us",
+        "description": "Mon-Fri, 9am-6pm SAST"
+      }
+    },
+    "form": {
+      "title": "Get a Free Quote",
+      "description": "Fill out the form below and we'll get back to you within 24 hours with a clear proposal.",
+      "name": "Your Name",
+      "email": "Email",
+      "phone": "Phone",
+      "business": "Business Name",
+      "service": "Service Interested In",
+      "selectService": "Select a service",
+      "budget": "Approximate Budget",
+      "selectBudget": "Select your budget range",
+      "message": "Tell Us About Your Project",
+      "messagePlaceholder": "What do you need help with? What are your goals?",
+      "send": "Send Message",
+      "thankYou": "Thank You!",
+      "successMessage": "We've received your message and will get back to you within 24 hours."
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Location",
+      "locationDetail": "Cape Town, South Africa",
+      "servingAll": "Serving all of SA remotely",
+      "hours": "Business Hours",
+      "weekdays": "Monday - Friday: 9am - 6pm",
+      "saturday": "Saturday: 10am - 2pm",
+      "whatsapp247": "WhatsApp available 24/7"
+    },
+    "whatsappCta": {
+      "title": "Prefer WhatsApp?",
+      "description": "Get instant responses to your questions. Chat with us now!",
+      "button": "Start WhatsApp Chat"
+    },
+    "faqs": {
+      "title": "Quick Answers"
+    }
+  },
+  "footer": {
+    "description": "Fast, affordable tech solutions for South African businesses. We help SMEs thrive in the digital age.",
+    "services": "Services",
+    "company": "Company",
+    "contactTitle": "Contact",
+    "allRights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
