@@ -32,7 +32,7 @@ const Services = () => {
       features: t('services.website.features', { returnObjects: true }),
       pricing: t('services.website.pricing'),
       deliveryTime: t('services.website.deliveryTime'),
-      color: "from-blue-500 to-blue-600"
+      color: "from-primary-500 to-primary-600"
     },
     {
       icon: FaRobot,
@@ -42,7 +42,7 @@ const Services = () => {
       features: t('services.aiAutomation.features', { returnObjects: true }),
       pricing: t('services.aiAutomation.pricing'),
       deliveryTime: t('services.aiAutomation.deliveryTime'),
-      color: "from-purple-500 to-purple-600"
+      color: "from-accent-500 to-accent-600"
     },
     {
       icon: FaMobile,
@@ -52,7 +52,7 @@ const Services = () => {
       features: t('services.customApps.features', { returnObjects: true }),
       pricing: t('services.customApps.pricing'),
       deliveryTime: t('services.customApps.deliveryTime'),
-      color: "from-green-500 to-green-600"
+      color: "from-primary-400 to-accent-500"
     },
     {
       icon: FaStore,
@@ -62,7 +62,7 @@ const Services = () => {
       features: t('services.googleBusiness.features', { returnObjects: true }),
       pricing: t('services.googleBusiness.pricing'),
       deliveryTime: t('services.googleBusiness.deliveryTime'),
-      color: "from-red-500 to-red-600"
+      color: "from-charcoal-600 to-charcoal-700"
     },
     {
       icon: FaChartLine,
@@ -72,7 +72,7 @@ const Services = () => {
       features: t('services.digitalMarketing.features', { returnObjects: true }),
       pricing: t('services.digitalMarketing.pricing'),
       deliveryTime: t('services.digitalMarketing.deliveryTime'),
-      color: "from-orange-500 to-orange-600"
+      color: "from-accent-400 to-accent-600"
     },
     {
       icon: FaHeadset,
@@ -82,14 +82,14 @@ const Services = () => {
       features: t('services.consulting.features', { returnObjects: true }),
       pricing: t('services.consulting.pricing'),
       deliveryTime: t('services.consulting.deliveryTime'),
-      color: "from-teal-500 to-teal-600"
+      color: "from-primary-600 to-primary-700"
     }
   ];
 
   return (
     <div className="overflow-hidden">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-primary-600 to-primary-800 text-white">
+      <section className="relative pt-32 pb-20 bg-gradient-to-br from-charcoal-700 to-charcoal-900 text-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -241,7 +241,7 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-700 text-white">
+      <section className="section-padding bg-gradient-to-r from-primary-500 to-accent-500 text-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
